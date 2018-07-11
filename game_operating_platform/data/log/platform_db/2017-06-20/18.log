@@ -1,0 +1,3 @@
+[2017-06-20 18:00:10] call create_new_account('EE3C8CF8-8594-4F4E-991C-7578B78F4401', 'd9403114-1f6e-4a0b-acda-1b18294fd41d', '456b94c4c5fb6e173835c32cee986e2e', 'BQVsx8vUj25axwNMtstiV8zK3GHcza7m', '172.17.212.184', @out_account_id, @out_result)
+[2017-06-20 18:00:10] select @out_account_id, @out_result
+[2017-06-20 18:02:34] select * from account_base where username = 'd9403114-1f6e-4a0b-acda-1b18294fd41d'

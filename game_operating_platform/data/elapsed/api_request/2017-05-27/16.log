@@ -1,0 +1,1 @@
+[2017-05-27 16:34:51] 172.17.96.98  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"GXXq62mlHTPgp455"}}    elapsed time:304 ms

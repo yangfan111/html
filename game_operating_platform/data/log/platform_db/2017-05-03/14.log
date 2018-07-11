@@ -1,0 +1,10 @@
+[2017-05-03 14:09:58] select * from account_base where username = 'ccc'
+[2017-05-03 14:13:05] select * from account_base where username = 'aaa'
+[2017-05-03 14:13:22] select * from account_base where username = 'ccc'
+[2017-05-03 14:14:32] select * from account_base where username = 'ccc'
+[2017-05-03 14:14:54] select * from account_base where username = 'ccc'
+[2017-05-03 14:15:48] call create_new_account('F1DA1ABA-B2EE-4398-9A3B-DD25F61580DF', 'xxx', '9a90c577c21662ec6942362dfec875a5', 'jIDyV078rGJqdkVeRODM9Md0N4nsxgt2', '127.0.0.1', @out_account_id, @out_result)
+[2017-05-03 14:15:49] select @out_account_id, @out_result
+[2017-05-03 14:16:07] select * from account_base where username = 'www'
+[2017-05-03 14:16:28] select * from account_base where username = 'www'
+[2017-05-03 14:19:24] select * from account_base where username = 'aaa'

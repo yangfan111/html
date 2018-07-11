@@ -1,0 +1,4 @@
+[2017-06-15 14:04:45] call create_new_account('F113E903-91E3-434B-B854-5283AFCAB292', '3c68db5d-b850-488b-b54f-134a586d1bde', 'ce3a17368e1edf538a6858747fac7594', 'k3yDu1u7e1yVIvs7spWxg5aFILUzyvuN', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-15 14:04:45] select @out_account_id, @out_result
+[2017-06-15 14:08:14] select * from account_base where username = '3c68db5d-b850-488b-b54f-134a586d1bde'
+[2017-06-15 14:48:30] select * from account_base where username = '3c68db5d-b850-488b-b54f-134a586d1bde'

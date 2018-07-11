@@ -1,0 +1,8 @@
+[2017-05-19 15:22:54] select * from account_base where username = '9bc0c834-a252-4b66-ad4e-081961de501d'
+[2017-05-19 15:24:39] select * from account_base where username = '9bc0c834-a252-4b66-ad4e-081961de501d'
+[2017-05-19 15:25:15] select * from account_base where username = '9bc0c834-a252-4b66-ad4e-081961de501d'
+[2017-05-19 15:31:48] select * from account_base where username = '9bc0c834-a252-4b66-ad4e-081961de501d'
+[2017-05-19 15:50:24] call create_new_account('C9DAF3B9-B2A9-4037-A5EF-D96A2C691772', 'e56680d0-1da6-4f8e-8e1f-ee6d33ef11b4', '38817b765242fae254ec70aca78352c9', '1Ix6VMPspc9cNmxMjkHOHgNmbWDo5wX2', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 15:50:24] select @out_account_id, @out_result
+[2017-05-19 15:57:08] call create_new_account('3402341C-A7FA-4D13-8B3A-49E9010A5444', '995e6682-9c26-4092-8278-ef19b13871af', '1923b2acf8f3906429f1e6cb1e82511b', '7yjezcB8xihKtw1mtE7GpkDMnQpqfQfG', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 15:57:08] select @out_account_id, @out_result

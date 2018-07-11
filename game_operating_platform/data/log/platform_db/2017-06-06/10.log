@@ -1,0 +1,2 @@
+[2017-06-06 10:50:49] call create_new_account('D8D670C7-60F2-4145-99B9-EFC38F75A950', 'f4faabf3-4d8c-4716-997f-d1256b728194', 'e6fc826dc89311610600e95716172122', '67ch2bOLctwZkxWDcXCP8bmzyPI5YRYX', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-06 10:50:49] select @out_account_id, @out_result

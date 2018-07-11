@@ -1,0 +1,11 @@
+[2017-05-27 16:00:44] call create_new_account('23F8F3A9-E229-4628-81A4-46BC05CDFA3E', 'b1b15f7f-f9e1-448b-be22-53eb47276f8f', '1e7815595a40398650a33fbdc01e6bf5', 'PmHGZGT4RU1Il0Xq1aPuRoDQXwpWV4Le', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 16:00:44] select @out_account_id, @out_result
+[2017-05-27 16:05:29] call create_new_account('6618DACD-8CB1-49E0-A544-7365A1028190', '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3', '3f598ee3545d4603f7ede101233d754f', 'h6dGJwpgHq9Sb6xmzmr4xejUhmBSjyXA', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 16:05:29] select @out_account_id, @out_result
+[2017-05-27 16:05:58] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'
+[2017-05-27 16:08:35] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'
+[2017-05-27 16:09:46] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'
+[2017-05-27 16:11:11] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'
+[2017-05-27 16:19:36] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'
+[2017-05-27 16:23:01] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'
+[2017-05-27 16:34:50] select * from account_base where username = '5ff0a9c8-65f7-4473-92b1-3957a24d5ad3'

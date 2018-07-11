@@ -1,0 +1,18 @@
+[2017-06-14 17:02:51] select * from account_base where username = 'fe5f02f4-444b-4542-9dcd-0e0dd8f896cb'
+[2017-06-14 17:03:13] call create_new_account('FEEB93D4-EDDE-48C9-B07D-7221F30CDD03', '87bb82e7-ec75-4675-95b1-53aedbc45baa', '0abc182b97a642aafee0436921e1f4fc', 'SViNSRAtCtExaLgvoX4tGRCD8ncXM5cB', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-14 17:03:13] select @out_account_id, @out_result
+[2017-06-14 17:05:24] select * from account_base where username = '87bb82e7-ec75-4675-95b1-53aedbc45baa'
+[2017-06-14 17:16:20] select * from account_base where username = '87bb82e7-ec75-4675-95b1-53aedbc45baa'
+[2017-06-14 17:22:57] select * from account_base where username = '87bb82e7-ec75-4675-95b1-53aedbc45baa'
+[2017-06-14 17:25:56] select * from account_base where username = '87bb82e7-ec75-4675-95b1-53aedbc45baa'
+[2017-06-14 17:26:14] call create_new_account('8A672AED-F65C-4922-A86D-CA14680E1F7B', '57b0d026-ba41-4709-a87d-68312dc76280', '83d98c4edabff2837d9f8dfd1c72ce85', 'rShozMPydqfolkJSd4xMj8zAlUTKFQJU', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-14 17:26:14] select @out_account_id, @out_result
+[2017-06-14 17:37:04] select * from account_base where username = '855d5200-22b2-4e91-ae2f-41b21d7ab64f'
+[2017-06-14 17:37:16] select * from account_base where username = '855d5200-22b2-4e91-ae2f-41b21d7ab64f'
+[2017-06-14 17:37:53] select * from account_base where username = '855d5200-22b2-4e91-ae2f-41b21d7ab64f'
+[2017-06-14 17:38:16] select * from account_base where username = '855d5200-22b2-4e91-ae2f-41b21d7ab64f'
+[2017-06-14 17:38:35] call create_new_account('31578308-4123-4248-A31E-2FE4BDB8785F', '0c41b22c-fe10-4730-b169-431b699e4a6f', '57743358c23174f6ca5cda78ea98298e', 'Pot0hQdqLkhehyJSNUxYj0r0Nu16fO9s', '172.17.212.184', @out_account_id, @out_result)
+[2017-06-14 17:38:35] select @out_account_id, @out_result
+[2017-06-14 17:53:03] call create_new_account('D319CD80-0B3C-4616-9953-3636DD6046A5', 'c28789f9-0ddf-4c1f-b116-63c7de0417c6', '36c7782c64b1ce68a4de4ef59a41dabd', 'mhs1AnS3UpIX8JENIxI9OlmjaxkDo1yz', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-14 17:53:03] select @out_account_id, @out_result
+[2017-06-14 17:58:58] select * from account_base where username = 'c28789f9-0ddf-4c1f-b116-63c7de0417c6'

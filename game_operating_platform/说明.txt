@@ -1,0 +1,40 @@
+此目录为游戏运营平台(可支持多个渠道、多个游戏、多个支付方等)
+
+文件夹说明(注:切记目录下的.htaccess文件不要删除)：
+	contrib为公共库
+	api为平台对外api部分
+	data为私有数据，包括平台各种日志信息等
+	static为站点静态资源(js、css、图片等)
+
+
+api/config目录下子目录：
+	server_list 为每个游戏的服务器列表配置目录
+	recharge_list 为每个游戏的充值列表
+	gm_data_list 为每个游戏的gm后台所需的游戏配置
+
+
+注意!!!
+	请确保linux下php的相关扩展库存在！
+		centos 下执行如下即可：
+			yum install php-bcmath
+
+
+注：若要增加某个账号为gm账号，
+		列game_id_server_list内容例子如下：
+			拥有指定服务器的权限
+				{"游戏类型":"服务器id, 服务器id"}
+
+			拥有所有服务器的权限
+				{"游戏类型":""}
+
+		列ip_filter内容例子如下：
+			127.0.0.1,192.168.1.96
+
+
+
+注意，若此网站搭建在linux下：
+	a、若为Apache web服务器，若php无法连接mysql，则执行：
+		setsebool -P httpd_can_network_connect=1
+	b、若访问mysql慢，则mysql配置中关掉反向解析，
+		增加skip-name-resolve，重启mysql
+

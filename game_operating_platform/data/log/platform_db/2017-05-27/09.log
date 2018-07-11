@@ -1,0 +1,10 @@
+[2017-05-27 09:37:55] call create_new_account('455C6392-61A0-4AA7-ADA0-D3710809BB12', 'd497e997-0308-48fa-9aac-5f8a0aba4f71', 'b96f13d326062f64d5dd345baeb33bb7', 'Evaxq7qlAZ61y9WzIR2dyJIhWtGBE14n', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 09:37:55] select @out_account_id, @out_result
+[2017-05-27 09:38:30] call create_new_account('49796305-3A9C-47EE-8CC4-F5DFB308AD78', '49385a68-c075-4edd-b2a7-6f74ca16a185', 'bee26a7a5d430e7fd46c5afc1a8a8d6b', 'OXGzspAXsRsbAj4xIJAXaXK7Y10f07KP', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 09:38:30] select @out_account_id, @out_result
+[2017-05-27 09:39:00] select * from account_base where username = '49385a68-c075-4edd-b2a7-6f74ca16a185'
+[2017-05-27 09:43:06] select * from account_base where username = '49385a68-c075-4edd-b2a7-6f74ca16a185'
+[2017-05-27 09:44:16] select * from account_base where username = '49385a68-c075-4edd-b2a7-6f74ca16a185'
+[2017-05-27 09:50:31] select * from account_base where username = '49385a68-c075-4edd-b2a7-6f74ca16a185'
+[2017-05-27 09:54:33] select * from account_base where username = '49385a68-c075-4edd-b2a7-6f74ca16a185'
+[2017-05-27 09:57:27] select * from account_base where username = '49385a68-c075-4edd-b2a7-6f74ca16a185'

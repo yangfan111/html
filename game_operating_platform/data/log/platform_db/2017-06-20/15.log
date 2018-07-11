@@ -1,0 +1,17 @@
+[2017-06-20 15:00:56] call create_new_account('3CE4AF69-4633-40FB-A04E-8F4332B8FE50', '5e14c036-12dd-47cd-b234-ba92041bdb15', 'bef6d50964e33e1a9deb1db1289079f9', 'UDm1a9wjEjyJkH2RARa9IZk9gFyR6Nwj', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-20 15:00:56] select @out_account_id, @out_result
+[2017-06-20 15:01:37] select * from account_base where username = '5e14c036-12dd-47cd-b234-ba92041bdb15'
+[2017-06-20 15:03:44] call create_new_account('DBA649C7-3B06-4709-A26F-7EF53B33F3B5', '6d8d75d9-e569-497e-a14e-4fdcfcc1cd9b', 'cbe60d5cce6769c996cd9f2046c0955a', '83oXyXS5UD8L65eByN2jWZ6pQPO56rgr', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-20 15:03:44] select @out_account_id, @out_result
+[2017-06-20 15:05:25] call create_new_account('453AF5C5-90D7-451D-AE96-3C6CD53440C1', '23688d74-7ca9-4129-a6b0-d4b3faf8cb87', '2ce59c9a90a41e9e5e4e1974381d84da', 'SxQTihEbiVaVGlAvQXOLyDSVSPGNgxyh', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-20 15:05:25] select @out_account_id, @out_result
+[2017-06-20 15:12:32] call create_new_account('1266A306-55D3-41BB-A2DB-C65831B99A21', '4813f056-7fec-4148-84bc-a9d400776e88', '0b43c79f6078e8f5c798250416758465', 'iZMPWV6juvYnIJyzqtwPyfEvsNO7STkr', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-20 15:12:32] select @out_account_id, @out_result
+[2017-06-20 15:13:35] select * from account_base where username = '4813f056-7fec-4148-84bc-a9d400776e88'
+[2017-06-20 15:18:03] select * from account_base where username = '4813f056-7fec-4148-84bc-a9d400776e88'
+[2017-06-20 15:19:13] select * from account_base where username = '4813f056-7fec-4148-84bc-a9d400776e88'
+[2017-06-20 15:22:25] select * from account_base where username = '4813f056-7fec-4148-84bc-a9d400776e88'
+[2017-06-20 15:23:10] select * from account_base where username = '4813f056-7fec-4148-84bc-a9d400776e88'
+[2017-06-20 15:34:58] select * from account_base where username = '0cc3cfce-a0e2-4c91-92d4-83c10b09b8fe'
+[2017-06-20 15:36:29] call create_new_account('34E263DF-4E86-4485-A54B-BE4120B2F2D2', '70de880b-3e44-48d5-91cf-726346e0c325', 'a336c52af6259958152d478c5903cf08', 'No7u3cXixqTmZKHk9a3Y9QfsLOjcfm5y', '172.17.212.184', @out_account_id, @out_result)
+[2017-06-20 15:36:29] select @out_account_id, @out_result

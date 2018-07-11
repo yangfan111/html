@@ -1,0 +1,5 @@
+[2017-06-02 16:05:35] select * from account_base where username = 'ec506777-0097-4239-b82c-640a533acb03'
+[2017-06-02 16:29:19] select * from account_base where username = 'ec506777-0097-4239-b82c-640a533acb03'
+[2017-06-02 16:39:45] select * from account_base where username = 'ec506777-0097-4239-b82c-640a533acb03'
+[2017-06-02 16:55:49] call create_new_account('DE322F3A-FBD4-4FC4-96B6-CFFA2405D335', 'de4ba5d8-2c76-48db-b7b4-a9fa3eaf4880', '13b4920736cdded525352488fa1ebb0a', 'Wr8LIdOpM56ZmJEZqhQ36LcVq5U9cZwz', '172.17.240.137', @out_account_id, @out_result)
+[2017-06-02 16:55:49] select @out_account_id, @out_result

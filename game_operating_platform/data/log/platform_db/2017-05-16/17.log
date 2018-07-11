@@ -1,0 +1,14 @@
+[2017-05-16 17:40:52] call create_new_account('D52E3200-8420-4F1B-8C26-29E36AD1EA9A', '908ebde4-7a6f-4582-89d6-b5e7fb234991', 'c48d809fb0b958fcaed80baa373010de', 'rgDezizMTubIFYv65CZiR8toZQzoRsFO', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:40:52] select @out_account_id, @out_result
+[2017-05-16 17:43:57] call create_new_account('6F88D47C-5239-4B55-AEA1-F6B096FF39AC', '74f32455-1968-493c-846e-c8c147f5c9ec', '4811d28eeaab83d7042f2be5a9a9fcef', 'qJ2jMtcFcrcjAnS9m3ojWHaTCny7qDO7', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:43:57] select @out_account_id, @out_result
+[2017-05-16 17:48:02] call create_new_account('D1EDD7B3-2AFD-473F-819C-72F825A4A9FD', '647ad9fd-e1f0-4eb6-8d25-00f889582e68', '1cdf84c65341e5e5734839c41367ed13', 'G1kXWl2fWZOZaJyzEbiPmHGZGT4RU1Il', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:48:02] select @out_account_id, @out_result
+[2017-05-16 17:48:49] call create_new_account('F17963AC-6636-4339-A06C-511C80B88F71', '2601257c-4f9c-4f5f-8143-6f611f1a1782', 'eb36375aab4e197350d865a0cbda44a8', '3SvcdcXAXsXgLAvyPeP4NGzIZAPA7m7U', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:48:49] select @out_account_id, @out_result
+[2017-05-16 17:51:52] call create_new_account('0AFDA05D-0A84-449E-9B7D-82214600E906', 'cf6a7489-4c3b-459f-a09b-e7e7d89110b8', 'b04aecbf1fb573e9329f91308f213302', 'O7Gv0jUVERKpGTKV0JmtcDkbYd0zSJ69', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:51:52] select @out_account_id, @out_result
+[2017-05-16 17:55:12] call create_new_account('367749C1-81E3-4720-8A38-F6E4D8ED1605', '30627c07-ea04-4543-8154-ece5429220c8', 'ab40222b427d0cd5b029cda3fa4e84de', 'K1eRg7u9yr4fMzi5Gz8nsbMNcJCh8LCN', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:55:12] select @out_account_id, @out_result
+[2017-05-16 17:55:31] call create_new_account('ECC6B056-01D2-4BBC-8D19-E6CDADB86F50', 'dd532f00-6a37-4b11-ae12-877959a75be3', '6ccdeb41c32b74b66f22fbabf43bd5ff', 'yrGbItcbwNYR616DCp6nu1YH85m3Yloh', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 17:55:31] select @out_account_id, @out_result

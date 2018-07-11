@@ -1,0 +1,19 @@
+[2017-05-15 14:01:08] call create_new_account('E381D786-D639-4868-92A3-F5099B4C5F9C', '6b990ffa-17ad-44bf-95cc-f2892f083d2f', 'a6a621f46390d6a7617f0909f17cca7e', 'Cjo7chePcroHOvMrqPazA1WHkly5mr01', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-15 14:01:08] select @out_account_id, @out_result
+[2017-05-15 14:05:51] call create_new_account('785D7E4B-5497-417A-A79C-A11183A92042', '4bb5639b-82fc-4d89-a5a0-c4a81be78b1f', 'e1dea33cde8e69b8991e95a36a241d91', 'RwRwjOVkbY1ClS7ihQ9S9yDqbQfYHKdW', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-15 14:05:51] select @out_account_id, @out_result
+[2017-05-15 14:13:00] call create_new_account('CE5CD871-0AF3-4E63-8E12-CEACE06B113E', 'a9b3e83a-955f-48d9-9f86-1e91432f305e', '0e8219ced00c85d4e30893c7adbecce3', 'ytCLunsl8fu7wrwds1uJkTUt4LapgTON', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-15 14:13:00] select @out_account_id, @out_result
+[2017-05-15 14:19:41] select * from account_base where username = 'a9b3e83a-955f-48d9-9f86-1e91432f305e'
+[2017-05-15 14:24:56] call create_new_account('A0ADDB43-9CBA-4689-A658-E27A965BF3AB', '4cffb157-ab97-48c2-9ec4-011926fbe87c', '0d27fb65d98527998956cdb5c7460f98', 'VCZcT2J6r25wtGXYX0VcXobYtyh2JYNy', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-15 14:24:56] select @out_account_id, @out_result
+[2017-05-15 14:25:35] select * from account_base where username = '4cffb157-ab97-48c2-9ec4-011926fbe87c'
+[2017-05-15 14:27:57] select * from account_base where username = '4cffb157-ab97-48c2-9ec4-011926fbe87c'
+[2017-05-15 14:29:36] call create_new_account('514A6378-0704-4292-BD05-9129F397CDD0', 'c391f9b0-812b-4b2f-988c-9155006968f3', '3fca3617c3f0ee205d89b72281751333', '8FAd4ZGFsBG7oRKTwxOJY58pCRSXgN2B', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-15 14:29:36] select @out_account_id, @out_result
+[2017-05-15 14:31:13] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 14:38:52] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 14:42:20] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 14:49:48] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 14:52:44] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 14:53:40] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'

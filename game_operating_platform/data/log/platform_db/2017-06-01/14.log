@@ -1,0 +1,11 @@
+[2017-06-01 14:03:51] call create_new_account('CD64CF2C-89F3-4260-9B96-DEDDD5128141', '04d2b075-60c9-4341-add1-426be380c886', 'a152f693ec8da54fa5e6b5ae1e4c40a2', 'pmXCtatuVOZw9Uvw3w3qh2LKLotIRa3w', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-01 14:03:51] select @out_account_id, @out_result
+[2017-06-01 14:04:47] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:07:56] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:10:20] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:25:29] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:25:45] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:26:54] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:27:43] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:55:31] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 14:56:19] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'

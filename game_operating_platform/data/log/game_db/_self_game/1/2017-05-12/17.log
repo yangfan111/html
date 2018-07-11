@@ -1,0 +1,24 @@
+[2017-05-12 17:00:06] call web_login(145, 'default_self', 'a8d547cedb9de66780884a27afb89506', '172.17.96.98', @out_new_user)
+[2017-05-12 17:00:06] select @out_new_user
+[2017-05-12 17:01:44] call web_login(146, 'default_self', 'c0a02b83ff5799aba2168dae185f89e3', '172.17.96.98', @out_new_user)
+[2017-05-12 17:01:44] select @out_new_user
+[2017-05-12 17:06:44] call web_login(147, 'default_self', 'b394e8072a07999530a5251c11809f33', '172.17.96.98', @out_new_user)
+[2017-05-12 17:06:44] select @out_new_user
+[2017-05-12 17:09:05] call web_login(147, 'default_self', '714918a9b33d063e806ff68c82f56787', '172.17.96.98', @out_new_user)
+[2017-05-12 17:09:05] select @out_new_user
+[2017-05-12 17:11:00] call web_login(147, 'default_self', 'de8e5447c043dfdff1776e13e1592475', '172.17.96.98', @out_new_user)
+[2017-05-12 17:11:00] select @out_new_user
+[2017-05-12 17:18:29] call web_login(147, 'default_self', 'ca3ae7aa91bfe6d4ffdc15f1e6e19fa3', '172.17.96.98', @out_new_user)
+[2017-05-12 17:18:29] select @out_new_user
+[2017-05-12 17:45:01] call web_login(147, 'default_self', '89b8892c96d86d2f4c9a85549140e15e', '172.17.96.98', @out_new_user)
+[2017-05-12 17:45:01] select @out_new_user
+[2017-05-12 17:46:41] call web_login(147, 'default_self', 'd6de5771992bb318557a04c9d27c3c27', '172.17.96.98', @out_new_user)
+[2017-05-12 17:46:41] select @out_new_user
+[2017-05-12 17:49:19] call web_login(148, 'default_self', 'd252bfedb838c65abc0c271c56438e26', '172.17.96.98', @out_new_user)
+[2017-05-12 17:49:19] select @out_new_user
+[2017-05-12 17:51:12] call web_login(149, 'default_self', '4f9946811db3d1cbc97b43d87603a27b', '172.17.96.98', @out_new_user)
+[2017-05-12 17:51:12] select @out_new_user
+[2017-05-12 17:52:56] call web_login(150, 'default_self', '16c5ad98945fc7599d9abfa23a07f5ec', '172.17.96.98', @out_new_user)
+[2017-05-12 17:52:56] select @out_new_user
+[2017-05-12 17:57:46] call web_login(151, 'default_self', 'c0beaf85cf9f6585e861edb31f673299', '172.17.96.98', @out_new_user)
+[2017-05-12 17:57:46] select @out_new_user

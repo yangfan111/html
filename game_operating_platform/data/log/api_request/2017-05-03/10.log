@@ -1,0 +1,12 @@
+[2017-05-03 10:51:15] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"login", "arg":{"username":"aaa", "password":"47bce5c74f589f4867dbd57e9ca9f808", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-03 10:51:15] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-03 10:51:16] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"BOFusABNdBNxcZHH"}}
+[2017-05-03 10:51:42] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"login", "arg":{"username":"aaa", "password":"47bce5c74f589f4867dbd57e9ca9f808", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-03 10:51:42] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-03 10:51:42] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"Bj346MVDAO02NcaI"}}
+[2017-05-03 10:53:38] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"login", "arg":{"username":"aaa", "password":"47bce5c74f589f4867dbd57e9ca9f808", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-03 10:53:43] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-03 10:53:44] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"UYkDbaSJdSQ5rlEq"}}
+[2017-05-03 10:59:28] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"login", "arg":{"username":"aaa", "password":"47bce5c74f589f4867dbd57e9ca9f808", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-03 10:59:28] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-03 10:59:28] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"QFKBaOEJ7qf5chJL"}}

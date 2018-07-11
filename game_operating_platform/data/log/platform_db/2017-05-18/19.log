@@ -1,0 +1,21 @@
+[2017-05-18 19:08:38] call create_new_account('31D09481-C6B0-4C0F-A160-2D7AB8A35BF4', '71c4b8b1-43a8-4d50-8e36-b225a7a2a727', 'b6f075ec938dd364976254a9e53bf64e', 'UtKJIPAvc58TsvWLE9O76FWfgxy5OlWl', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-18 19:08:38] select @out_account_id, @out_result
+[2017-05-18 19:09:29] call create_new_account('DE8F2DAD-CE36-44A8-971E-0FF5323DD89D', '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f', 'e49808af8594e812df86d3681cdfb53b', 'x0JyL4787EVQ7CjMzslkZQLexIxq1epO', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-18 19:09:30] select @out_account_id, @out_result
+[2017-05-18 19:11:10] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:13:04] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:14:31] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:17:13] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:19:38] call create_new_account('3489E29B-02A1-4F60-8663-539B4EFB4633', 'a1d372d7-8eb8-45af-937f-929ae4499532', '834cb7b3f50213b18f8eba50ce4a7380', 'l8bU90HizWFgtazCjOlKbq1qNc1IfejU', '172.17.241.26', @out_account_id, @out_result)
+[2017-05-18 19:19:38] select @out_account_id, @out_result
+[2017-05-18 19:23:44] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:24:29] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:37:07] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:38:02] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:41:16] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:41:53] select * from account_base where username = 'a1d372d7-8eb8-45af-937f-929ae4499532'
+[2017-05-18 19:42:27] select * from account_base where username = 'a1d372d7-8eb8-45af-937f-929ae4499532'
+[2017-05-18 19:45:42] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:53:13] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:54:29] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'
+[2017-05-18 19:55:48] select * from account_base where username = '3b4e3009-d9e6-4433-8b43-cc7cb6a5ef8f'

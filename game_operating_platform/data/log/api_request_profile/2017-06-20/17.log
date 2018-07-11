@@ -1,0 +1,3 @@
+[2017-06-20 17:56:25] 172.17.197.97  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"register", "arg":{"username":"e6db7e5a-d6d2-46e9-bfb5-1144b549cac8", "password":"d41d8cd98f00b204e9800998ecf8427e", "channel":"default_self", "game_id":"_self_game"}}    elapsed time:33 ms
+[2017-06-20 17:56:25] 172.17.197.97  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}    elapsed time:6 ms
+[2017-06-20 17:56:25] 172.17.197.97  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"F5EYrK4V4fdtl8Vw"}}    elapsed time:27 ms

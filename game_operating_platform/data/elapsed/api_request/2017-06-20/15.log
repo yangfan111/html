@@ -1,0 +1,1 @@
+[2017-06-20 15:03:44] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"register", "arg":{"username":"6d8d75d9-e569-497e-a14e-4fdcfcc1cd9b", "password":"d41d8cd98f00b204e9800998ecf8427e", "channel":"default_self", "game_id":"_self_game"}}    elapsed time:456 ms

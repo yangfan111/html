@@ -1,0 +1,2 @@
+[2017-06-14 18:00:45] call web_login(889, 'default_self', '035dd13c4fedcda691dd0361bde4519a', '172.17.96.98', @out_new_user)
+[2017-06-14 18:00:45] select @out_new_user

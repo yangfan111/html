@@ -1,0 +1,9 @@
+[2017-05-09 10:30:02] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"register", "arg":{"username":"7613ff5f-bd4a-4913-86ba-306269470018", "password":"d41d8cd98f00b204e9800998ecf8427e", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-09 10:30:03] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-09 10:30:03] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"QvWpmRR6DlTWORhl"}}
+[2017-05-09 10:31:25] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"register", "arg":{"username":"ed314abf-b6c7-45e4-97fe-3c523c8bc37f", "password":"d41d8cd98f00b204e9800998ecf8427e", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-09 10:31:26] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-09 10:31:26] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"AwJHZ8X01gqeZbaQ"}}
+[2017-05-09 10:32:28] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"register", "arg":{"username":"088ad749-9f05-4050-a735-473bff2bd96d", "password":"d41d8cd98f00b204e9800998ecf8427e", "channel":"default_self", "game_id":"_self_game"}}
+[2017-05-09 10:32:29] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"server_list", "arg":{}}
+[2017-05-09 10:32:29] 172.17.240.132  request  http://172.17.96.98/game_operating_platform/index.php  post data:req_data={"opcode":"enter_game", "arg":{"server_id":"1", "random_a":"VdQGXXZ02RTYPBJW"}}

@@ -1,0 +1,22 @@
+[2017-06-13 19:29:47] call web_login(879, 'default_self', '075244b11f9474f58578540d9509c285', '172.17.96.98', @out_new_user)
+[2017-06-13 19:29:47] select @out_new_user
+[2017-06-13 19:30:58] call web_login(879, 'default_self', '179ba9b87b5653ee0cb30449306c8f7a', '172.17.96.98', @out_new_user)
+[2017-06-13 19:30:58] select @out_new_user
+[2017-06-13 19:31:47] call web_login(879, 'default_self', '5d3fabb5b397ac9255b7736c66cc4e56', '172.17.96.98', @out_new_user)
+[2017-06-13 19:31:47] select @out_new_user
+[2017-06-13 19:39:33] call web_login(879, 'default_self', 'e25e23e914eef85c5147894a87785ae4', '172.17.96.98', @out_new_user)
+[2017-06-13 19:39:33] select @out_new_user
+[2017-06-13 19:41:11] call web_login(880, 'default_self', 'a6dd17da70c6caa1b5f18ecee7038627', '172.17.96.98', @out_new_user)
+[2017-06-13 19:41:11] select @out_new_user
+[2017-06-13 19:41:35] call web_login(880, 'default_self', '1e661de27e6c32a0874e1804d742ef8e', '172.17.96.98', @out_new_user)
+[2017-06-13 19:41:35] select @out_new_user
+[2017-06-13 19:41:46] call web_login(881, 'default_self', '3f536b97016109aab340c482f5ed172c', '172.17.96.98', @out_new_user)
+[2017-06-13 19:41:46] select @out_new_user
+[2017-06-13 19:46:35] call web_login(881, 'default_self', '0a1340f253152b7ef3da08dd5cdf66e2', '172.17.96.98', @out_new_user)
+[2017-06-13 19:46:35] select @out_new_user
+[2017-06-13 19:46:58] call web_login(881, 'default_self', 'fbe673ce9dedf20a401b3d82c7d61d3d', '172.17.96.98', @out_new_user)
+[2017-06-13 19:46:58] select @out_new_user
+[2017-06-13 19:49:40] call web_login(881, 'default_self', '33309a3ae7ba8a519b86938c5ea52e65', '172.17.96.98', @out_new_user)
+[2017-06-13 19:49:40] select @out_new_user
+[2017-06-13 19:55:38] call web_login(881, 'default_self', '5232de1406cf0c2ac517470aa3f0a390', '172.17.96.98', @out_new_user)
+[2017-06-13 19:55:38] select @out_new_user

@@ -1,0 +1,15 @@
+[2017-06-01 17:14:19] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 17:19:25] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 17:21:23] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 17:22:24] select * from account_base where username = '04d2b075-60c9-4341-add1-426be380c886'
+[2017-06-01 17:28:21] call create_new_account('EB963511-0274-4A7A-AFBB-0FC1919FFB9A', '33fe083c-fbe2-412e-a7bf-42d0646a8abb', '58c480e1bee16e42a86a150b8b724d25', 'IpyRG3QnQ5oNUfilMluLidwhSl8hmN0T', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-01 17:28:21] select @out_account_id, @out_result
+[2017-06-01 17:29:03] call create_new_account('D3A6CC75-26E1-4FE8-9FAF-76814C18ECB8', '779e51d5-e0c9-4aca-afaa-497f74471e5e', '54893801db2c36de8f48811d629dbe12', '8JQv2bCrSbYTEhA1MzyxgLc3iLYFGNQp', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-01 17:29:03] select @out_account_id, @out_result
+[2017-06-01 17:34:10] call create_new_account('99F05319-E181-4919-BB35-4A40F2EE4F46', 'b9f611d9-3676-43a5-ba55-b4684722d328', '849649ecedf122af13fbae9339fa130f', 'wH0BoPih4vERmx0PELCpSDiBGvGhC5EN', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-01 17:34:10] select @out_account_id, @out_result
+[2017-06-01 17:34:35] select * from account_base where username = 'b9f611d9-3676-43a5-ba55-b4684722d328'
+[2017-06-01 17:35:50] select * from account_base where username = 'b9f611d9-3676-43a5-ba55-b4684722d328'
+[2017-06-01 17:36:55] select * from account_base where username = 'b9f611d9-3676-43a5-ba55-b4684722d328'
+[2017-06-01 17:38:38] select * from account_base where username = 'b9f611d9-3676-43a5-ba55-b4684722d328'
+[2017-06-01 17:39:39] select * from account_base where username = 'b9f611d9-3676-43a5-ba55-b4684722d328'

@@ -1,0 +1,18 @@
+[2017-06-14 19:16:18] select * from account_base where username = 'c28789f9-0ddf-4c1f-b116-63c7de0417c6'
+[2017-06-14 19:16:31] select * from account_base where username = 'c28789f9-0ddf-4c1f-b116-63c7de0417c6'
+[2017-06-14 19:17:09] select * from account_base where username = 'c28789f9-0ddf-4c1f-b116-63c7de0417c6'
+[2017-06-14 19:20:35] select * from account_base where username = 'c28789f9-0ddf-4c1f-b116-63c7de0417c6'
+[2017-06-14 19:26:12] call create_new_account('A61F68C5-5033-491E-A172-AE4C1D777412', '0465cc9d-6b9b-477e-9595-cf74f14798d1', '2442ed0c4e4a556a92b34e7b79170b95', 'HYbOdWRQByXoVoNqzEh4D8zmZizWdOfa', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-14 19:26:12] select @out_account_id, @out_result
+[2017-06-14 19:28:59] select * from account_base where username = '0465cc9d-6b9b-477e-9595-cf74f14798d1'
+[2017-06-14 19:30:19] select * from account_base where username = '0465cc9d-6b9b-477e-9595-cf74f14798d1'
+[2017-06-14 19:40:36] select * from account_base where username = '0465cc9d-6b9b-477e-9595-cf74f14798d1'
+[2017-06-14 19:41:52] select * from account_base where username = '0465cc9d-6b9b-477e-9595-cf74f14798d1'
+[2017-06-14 19:42:43] call create_new_account('98F5741A-C473-484E-AD15-8E3B0566760A', '6c34c761-1ed5-4331-a696-52ff54874383', '9d14c70439dda4d0c8bea7ca3d9bf2cc', 'dKFWZU1CPCB8VaxOV6pGju1IJQ1mbKZm', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-14 19:42:43] select @out_account_id, @out_result
+[2017-06-14 19:43:23] select * from account_base where username = '6c34c761-1ed5-4331-a696-52ff54874383'
+[2017-06-14 19:43:52] select * from account_base where username = '6c34c761-1ed5-4331-a696-52ff54874383'
+[2017-06-14 19:44:08] select * from account_base where username = '6c34c761-1ed5-4331-a696-52ff54874383'
+[2017-06-14 19:44:54] select * from account_base where username = '6c34c761-1ed5-4331-a696-52ff54874383'
+[2017-06-14 19:47:35] select * from account_base where username = '6c34c761-1ed5-4331-a696-52ff54874383'
+[2017-06-14 19:56:39] select * from account_base where username = '6c34c761-1ed5-4331-a696-52ff54874383'

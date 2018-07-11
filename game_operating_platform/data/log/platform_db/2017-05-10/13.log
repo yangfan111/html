@@ -1,0 +1,3 @@
+[2017-05-10 13:01:55] select * from account_base where username = 'c06a6189-25f5-46f2-a6be-140746d95f1b'
+[2017-05-10 13:02:02] call create_new_account('071E6E41-F97B-468A-8FF1-B9DF6B49BF3D', 'c83eed3f-2960-450c-9856-e6fd40a4dc88', 'ee5bdec042d7be59e4e83b646438ab8b', 'SjsLkVYFSvAxmFkZ8R6xgFGjMd2Fory7', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-10 13:02:02] select @out_account_id, @out_result

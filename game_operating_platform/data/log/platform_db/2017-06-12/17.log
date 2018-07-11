@@ -1,0 +1,15 @@
+[2017-06-12 17:21:37] call create_new_account('E5BEE9F5-C03B-492C-8E84-DA0436D6D6AD', 'd320cefa-371e-4bb6-bb2a-44e5e1a80f32', '2bf1699d70a4a5ca7ed74ae4843d40cf', 'WjgxgLELwrk9Ej2jij8BKJqtiDERKRYh', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-12 17:21:37] select @out_account_id, @out_result
+[2017-06-12 17:24:09] call create_new_account('1E1D9E4B-0CF5-48C3-A29E-8B7FB3587789', '2dadc1c0-d492-4b77-89a4-cf5e6d74a1b4', 'b107aeab57379b9356fe4cb5714435f1', 'ItyvSnktqfAdy7efezMDQtil6hOXiVKX', '172.17.241.177', @out_account_id, @out_result)
+[2017-06-12 17:24:09] select @out_account_id, @out_result
+[2017-06-12 17:24:37] call create_new_account('6EA3DB2F-8F2F-473D-9B3A-2BD392580677', 'b5883264-d57d-4dea-b654-9ac1486ecc9d', '761f9dc749e7962707f17a5ccaed4e8b', 'vGPOpSH2Ly1Ix6VMPspc9cNmxMjkHOHg', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-12 17:24:37] select @out_account_id, @out_result
+[2017-06-12 17:28:50] call create_new_account('24C4E5FA-3249-46BC-A621-014BE6DB5F9C', '743967a5-72c7-4a21-832f-b7c334ab4afd', '887280bdc2c40c4695890747a8625822', 'rSLyTQD2tCbsVSFatc9QvqXSD4PydSx2', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-12 17:28:50] select @out_account_id, @out_result
+[2017-06-12 17:30:43] call create_new_account('434CB1CF-F177-480E-A663-E39A5BBABE06', 'dbce14d8-2667-48c7-800f-f5e1fb1e50a1', 'a489db36c1ca831f809b286431045160', 'NcDSh0dOlO1oxw7mN4t4ty5k5YBapUve', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-12 17:30:43] select @out_account_id, @out_result
+[2017-06-12 17:47:32] call create_new_account('E9E1E4FF-0BE4-4505-8B0A-F1E83E45CDF2', 'e6f6f10a-2a34-44fb-847e-2343a877dae2', '3f9d203835c1ef373ee9951156b9f801', 'Zebof81Or41gVenijmroNeRUZAV490pa', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-12 17:47:32] select @out_account_id, @out_result
+[2017-06-12 17:47:44] call create_new_account('D65404C2-8776-4B1E-8A44-DC6D2EC1B7C7', 'a833f532-0bd1-46c2-bac0-17384df59013', '7e6c003fa94b579001837567487d3ff0', 'dCBsRafOryfs9wniHGP6z0dwFwJQJ8Zy', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-12 17:47:44] select @out_account_id, @out_result
+[2017-06-12 17:48:12] select * from account_base where username = 'a833f532-0bd1-46c2-bac0-17384df59013'

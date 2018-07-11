@@ -1,0 +1,16 @@
+[2017-05-25 16:01:34] call create_new_account('34390AFF-4E7B-4471-A79A-4D50AB44D92D', '5e613cfe-6bfb-416e-9d50-a22f7334efc3', '15441a9549300717bdb9990ea80c46c1', 'fm5yt8rMVmPwhiL8VmV8d01qZAlQ3qJK', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:01:34] select @out_account_id, @out_result
+[2017-05-25 16:01:59] call create_new_account('D01BCB06-DFCE-43F7-BCB2-D672C4F52B81', '7b379257-0026-4cc2-9163-35975f1ef085', 'b4b888984d6e69c9c28c99a1c09b726e', 'eNo1i7KrWtSjy9yVk9QHGrcvi1a3UdeV', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:01:59] select @out_account_id, @out_result
+[2017-05-25 16:06:30] call create_new_account('D72BC994-1BFE-407C-B5A8-F1C16291A35F', 'eb933cbf-0ffa-4045-ae69-790439ce4282', 'a876b7bf07794667200ab743b2ac9117', '3mNQDaJAXyj67M72JuD0j2zIjwBSvWHo', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:06:30] select @out_account_id, @out_result
+[2017-05-25 16:12:45] call create_new_account('CF9100A0-A359-43DC-AA9D-DC7D012516ED', '88f02c49-bd7a-4966-8557-de4290faf469', 'b80e7bf91bfa6e1b66d6a62ff6c503db', 'xObSdcRu1kpsjgl8baREHuNUbmnQBABq', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:12:45] select @out_account_id, @out_result
+[2017-05-25 16:14:33] call create_new_account('5CD6D772-2A17-4F6C-B70D-6C3ED7E3EF0F', '9c7fd740-9c88-4903-8b76-045160adee20', 'd7b05ba6167c60edc697d2b22d834182', 'jYRk5I3UByBUzsfOF4d8xqROJGBaLajs', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:14:33] select @out_account_id, @out_result
+[2017-05-25 16:14:53] call create_new_account('E5E16611-7CFE-4328-9641-942F1C29D1D3', '05d4b398-f276-405b-82ec-317e2f889afe', '8c5f90054a3b1eced315e5a024c50343', 'LsZqtynEjKZgrEHMVEXgdcBKVwLEbWr2', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:14:53] select @out_account_id, @out_result
+[2017-05-25 16:23:07] call create_new_account('89A9022F-5229-47C9-A303-A435032C7532', '403c5563-7144-4262-8f7a-705d45f0448c', '9375a78de080fcf8d5bc38bee0d10ebf', 'yTOR436dyxyBaBoRax81OFmngJGpM7sX', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:23:07] select @out_account_id, @out_result
+[2017-05-25 16:34:31] call create_new_account('EBAF7857-B629-4BA4-B4CB-42D99D45136D', '72f595ca-f81b-4b24-ade3-077ff818b96d', '0e7d0b1c3a1cd556e208b6eeff9afca9', 'MtstiV8zK3GHcza7mZcdCHAfarIpKlmT', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-25 16:34:31] select @out_account_id, @out_result

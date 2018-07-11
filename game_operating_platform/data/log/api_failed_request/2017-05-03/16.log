@@ -1,0 +1,1 @@
+[2017-05-03 16:43:29] 127.0.0.1  request  http://127.0.0.1/game_operating_platform/index.php  post data:req_data={"opcode":"login", "arg":{"username":"aaa", "password":"47bce5c74f589f4867dbd57e9ca9f808", "channel":"default_self", "game_id":"_self_game"}}   do failed. failed info:{"error_code":102,"error_msg":"\u5df2\u767b\u5f55","opcode":"login"}

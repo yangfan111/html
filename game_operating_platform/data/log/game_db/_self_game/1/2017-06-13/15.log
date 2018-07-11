@@ -1,0 +1,26 @@
+[2017-06-13 15:01:08] call web_login(874, 'default_self', '9e1a2f68def93bdb1a6ea7a09461bffd', '172.17.96.98', @out_new_user)
+[2017-06-13 15:01:08] select @out_new_user
+[2017-06-13 15:01:24] call web_login(874, 'default_self', 'caacb610c8751682aa96565396633bf5', '172.17.96.98', @out_new_user)
+[2017-06-13 15:01:24] select @out_new_user
+[2017-06-13 15:03:14] call web_login(874, 'default_self', 'a62579d107764743f61d0a60155ebee7', '172.17.96.98', @out_new_user)
+[2017-06-13 15:03:14] select @out_new_user
+[2017-06-13 15:05:58] call web_login(874, 'default_self', '2080d1061eef53846359ecd84153e8dc', '172.17.96.98', @out_new_user)
+[2017-06-13 15:05:58] select @out_new_user
+[2017-06-13 15:08:51] call web_login(874, 'default_self', 'f54355ad8eb53d3750651275d0d28b4f', '172.17.96.98', @out_new_user)
+[2017-06-13 15:08:51] select @out_new_user
+[2017-06-13 15:17:44] call web_login(874, 'default_self', 'f78a5cc1d51d2e6d49f82349d6e3b0bd', '172.17.96.98', @out_new_user)
+[2017-06-13 15:17:44] select @out_new_user
+[2017-06-13 15:18:55] call web_login(874, 'default_self', '87b73e554b1a658f441e52e67ab8c8ea', '172.17.96.98', @out_new_user)
+[2017-06-13 15:18:55] select @out_new_user
+[2017-06-13 15:19:48] call web_login(874, 'default_self', 'a586ab50ba9e261e14e3a3f490ade2c1', '172.17.96.98', @out_new_user)
+[2017-06-13 15:19:48] select @out_new_user
+[2017-06-13 15:20:09] call web_login(874, 'default_self', '11d52130636a8bd2f0257ae6d81cdde2', '172.17.96.98', @out_new_user)
+[2017-06-13 15:20:09] select @out_new_user
+[2017-06-13 15:20:48] call web_login(874, 'default_self', '6b0b38c95c1ff7ba2c71355470ce5b53', '172.17.96.98', @out_new_user)
+[2017-06-13 15:20:48] select @out_new_user
+[2017-06-13 15:21:12] call web_login(874, 'default_self', '5e62e41f61dd69555a530b04733a9737', '172.17.96.98', @out_new_user)
+[2017-06-13 15:21:12] select @out_new_user
+[2017-06-13 15:41:18] call web_login(874, 'default_self', 'f7ea3830066976326c2006e77fc4682a', '172.17.96.98', @out_new_user)
+[2017-06-13 15:41:18] select @out_new_user
+[2017-06-13 15:41:44] call web_login(875, 'default_self', '969a9ac1ed51eb00c0d95cdfa02a8639', '172.17.96.98', @out_new_user)
+[2017-06-13 15:41:44] select @out_new_user

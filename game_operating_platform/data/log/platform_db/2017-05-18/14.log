@@ -1,0 +1,10 @@
+[2017-05-18 14:27:37] call create_new_account('CFA21340-C082-4078-8D5A-AE7422F9DE3C', 'a9d4156f-3bf1-4de7-95e6-72bc1df37ee5', 'c313f5026a59b7adfc986f2e81606de4', '8nUPatoDA3kF2ZK9cNsFajwBMdIHcHUf', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-18 14:27:37] select @out_account_id, @out_result
+[2017-05-18 14:31:33] call create_new_account('34CB2435-ADDD-4DFD-8E49-F47745964857', '1641858b-4247-47d1-882f-19f3edc525f6', '76721f255d21f5dc5c70ba4460fabbe2', 'jMtcFcrcjAnS9m3ojWHaTCny7qDO7Gv0', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-18 14:31:33] select @out_account_id, @out_result
+[2017-05-18 14:40:46] call create_new_account('2C3E5654-BE04-4A56-A2AD-03D2ECA1CF85', '22d9a52a-318d-4fa4-bd65-3a50ade08c6d', '28dfa705604a9fed4aa35fb5e6dc07ad', '6tYZ4PEVMJW1GR6rKRu1qd6js9axCL4x', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-18 14:40:46] select @out_account_id, @out_result
+[2017-05-18 14:44:39] select * from account_base where username = '22d9a52a-318d-4fa4-bd65-3a50ade08c6d'
+[2017-05-18 14:52:40] select * from account_base where username = '22d9a52a-318d-4fa4-bd65-3a50ade08c6d'
+[2017-05-18 14:53:40] select * from account_base where username = '22d9a52a-318d-4fa4-bd65-3a50ade08c6d'
+[2017-05-18 14:55:47] select * from account_base where username = '22d9a52a-318d-4fa4-bd65-3a50ade08c6d'

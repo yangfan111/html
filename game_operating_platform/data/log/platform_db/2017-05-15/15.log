@@ -1,0 +1,9 @@
+[2017-05-15 15:10:05] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:33:48] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:50:36] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:51:23] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:52:02] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:53:09] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:54:37] select * from account_base where username = 'c391f9b0-812b-4b2f-988c-9155006968f3'
+[2017-05-15 15:57:36] call create_new_account('9AFEB862-3832-436F-B4CA-10B1A4B7B98A', '01f0dea5-9ad2-47e2-abea-8264e563665b', 'cf22f40adcec6e1eccc105b5bcecdce3', 'k9UhknCfMtMHuH8nQ5ufifufK70F2pu9', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-15 15:57:36] select @out_account_id, @out_result

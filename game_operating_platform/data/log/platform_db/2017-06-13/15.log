@@ -1,0 +1,15 @@
+[2017-06-13 15:01:08] call create_new_account('79E5D4C9-6750-48C3-8721-B0986D4A43A6', '88f86dfa-d8e7-412a-9bcc-25a39996342b', 'ab89cb4f4cc57191384805b00b563829', '4nG3AfqvI7KPOdWp8xSLQ3Slw92jclWb', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-13 15:01:08] select @out_account_id, @out_result
+[2017-06-13 15:01:24] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:03:14] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:05:58] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:08:51] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:17:44] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:18:55] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:19:48] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:20:09] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:20:48] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:21:11] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:41:17] select * from account_base where username = '88f86dfa-d8e7-412a-9bcc-25a39996342b'
+[2017-06-13 15:41:43] call create_new_account('517DD4DA-F654-4051-9EBB-927C4ADC39C5', '4e1f71b0-0129-46ab-bb2e-d3d507a1564c', 'ae6bc7ec4a2a7f8b0b75153fc234092b', 'iBi30davQtErOvuj6TgdyVMRenSF4Hov', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-13 15:41:43] select @out_account_id, @out_result

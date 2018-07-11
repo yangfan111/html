@@ -1,0 +1,25 @@
+[2017-06-07 14:00:40] select * from account_base where username = '81e614fc-8283-48db-909e-bd522c133026'
+[2017-06-07 14:02:22] select * from account_base where username = '81e614fc-8283-48db-909e-bd522c133026'
+[2017-06-07 14:04:00] select * from account_base where username = '81e614fc-8283-48db-909e-bd522c133026'
+[2017-06-07 14:10:24] select * from account_base where username = '81e614fc-8283-48db-909e-bd522c133026'
+[2017-06-07 14:13:46] select * from account_base where username = '81e614fc-8283-48db-909e-bd522c133026'
+[2017-06-07 14:17:02] call create_new_account('5A5544E1-3D8A-4B50-8FF5-06E17C5AFC09', 'cd900d79-4844-451e-b1fe-8c8bccf5690d', '49474ea9fe91ed617bda0958116af884', '7sTCRGt818H4DgrWdKdKdiLUpIRq5EBu', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-07 14:17:02] select @out_account_id, @out_result
+[2017-06-07 14:21:23] select * from account_base where username = 'cd900d79-4844-451e-b1fe-8c8bccf5690d'
+[2017-06-07 14:22:32] select * from account_base where username = 'cd900d79-4844-451e-b1fe-8c8bccf5690d'
+[2017-06-07 14:24:29] call create_new_account('852E68E5-F661-41FB-97CB-124DF230AEB4', '136f8680-01f7-427b-9469-5d2037ddd02c', 'd20b4983170f3ddc8e21be5e4d3d451d', 'Fq5cHslkx878luzUvkVCvwVSVYbg9s92', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-07 14:24:29] select @out_account_id, @out_result
+[2017-06-07 14:28:46] call create_new_account('C7B3DB32-EE6F-41E6-85DD-24435E48B861', 'e39515c3-7da5-4f4d-a089-189d134940ed', '7ce54faba26a04ad69cfbf70a58f98c6', 'vGPIXElqx0fC3GJOxQDEzebmHsxIhG1q', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-07 14:28:46] select @out_account_id, @out_result
+[2017-06-07 14:32:24] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:37:23] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:37:42] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:39:53] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:41:48] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:42:16] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:43:15] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:48:00] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:48:56] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:49:30] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:54:03] select * from account_base where username = 'e39515c3-7da5-4f4d-a089-189d134940ed'
+[2017-06-07 14:58:19] select * from account_base where username = 'cd900d79-4844-451e-b1fe-8c8bccf5690d'

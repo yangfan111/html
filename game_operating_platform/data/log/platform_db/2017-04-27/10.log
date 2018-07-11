@@ -1,0 +1,6 @@
+[2017-04-27 10:25:10] call create_new_account('ABA7A6F3-9104-4923-B6F7-A0DB2F4F9B95', '123', 'd827407006f3046f156b5b4b487a78e7', 'I3OtkBIbQJILkxgzOp09IP4f6xQfGRMV', '172.17.240.132', @out_account_id, @out_result)
+[2017-04-27 10:25:10] select @out_account_id, @out_result
+[2017-04-27 10:26:43] select * from account_base where username = '123'
+[2017-04-27 10:26:47] select * from account_base where username = '123'
+[2017-04-27 10:28:57] select * from account_base where username = '123'
+[2017-04-27 10:29:18] select * from account_base where username = '123'

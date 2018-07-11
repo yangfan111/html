@@ -1,0 +1,15 @@
+[2017-06-08 14:06:53] select * from account_base where username = '49275b66-b2d6-40ce-b09e-c01de07e6f95'
+[2017-06-08 14:10:40] select * from account_base where username = '49275b66-b2d6-40ce-b09e-c01de07e6f95'
+[2017-06-08 14:12:39] select * from account_base where username = '49275b66-b2d6-40ce-b09e-c01de07e6f95'
+[2017-06-08 14:15:53] call create_new_account('6535AE8D-C9DE-49A0-B96B-F06B33E4672D', 'b8a1d2d2-888e-44b4-9c05-f9521ac7aab0', '59fc6b5edf2bfe3feae1d271e43b98af', 'nYFu7UFChUfiJ49OvYVOlUN8Je7mpaLm', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-08 14:15:53] select @out_account_id, @out_result
+[2017-06-08 14:41:19] call create_new_account('D30EEEE7-85AA-4F75-B505-E0DF8C8A9A84', 'e8322edc-f742-4e8e-8ce9-043db21ac015', 'd351fa9822d3e6181909b293b5514add', 'n4tWVi18vkhkfatA5OrQHc5qduHQFCxW', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-08 14:41:19] select @out_account_id, @out_result
+[2017-06-08 14:47:13] call create_new_account('DC65C1C7-0A2E-4ED4-A387-2585A7119A58', 'fddab494-c084-4caa-968c-498492139612', 'a083d85bdca3bc9e45a325bb95391edf', 'KJUxu3Wnip8fA5eRw5cDSnIrOTmzAZqR', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-08 14:47:13] select @out_account_id, @out_result
+[2017-06-08 14:50:08] call create_new_account('58EC29B4-FEAB-4938-8F7E-9310FE94F96A', '3fca6478-986e-480d-9d2d-53923f45e16b', '872c3f9fc0cc1c40f07baf40fa97a99a', 'ExaLgvoX4tGRCD8ncXM5cBaXElkfm90f', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-08 14:50:08] select @out_account_id, @out_result
+[2017-06-08 14:51:40] call create_new_account('4B80009E-FBB4-4648-84FA-D2EF2FD5186F', '23b01f1c-13e2-420f-8829-576d0662a8b7', 'ced9177f42860b2a4ead5f3031b7a998', 'QVaVs3OvcvMh47mBQriT47wxC90jEvEd', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-08 14:51:40] select @out_account_id, @out_result
+[2017-06-08 14:52:28] call create_new_account('E796BE05-2268-4764-980E-65B60552D22D', '08f76b3e-3d7f-4cf5-88cc-3f05218e3a85', 'd21af1f5838c4bcb247f6504164a09dc', 'fc3EtGdkxmBKbCLMJKT2JifG58HitARK', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-08 14:52:28] select @out_account_id, @out_result

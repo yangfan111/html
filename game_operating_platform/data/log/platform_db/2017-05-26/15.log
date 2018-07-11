@@ -1,0 +1,15 @@
+[2017-05-26 15:17:19] call create_new_account('4550795D-000C-40BB-9BF4-63847670C2B3', '7c68a0a8-150e-4464-8bba-758589af9b80', '722de40883e76e9c3cc8206692c45c2e', 'aXK1knUTc9yn674NstoJMzWREdEtunEX', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-26 15:17:19] select @out_account_id, @out_result
+[2017-05-26 15:24:05] call create_new_account('4A86391B-AD13-4C41-87FF-8A4013955DA7', '00dae549-2a58-4bbc-b5bb-6cea88798f96', '38d9bb9ff602abf9768662bd9475bac6', 'Wlexk5ax2fat4HArEtejEj4bynEL8ng3', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-26 15:24:05] select @out_account_id, @out_result
+[2017-05-26 15:24:40] call create_new_account('57586A33-01CA-422D-946B-AE8D104F1143', 'acf7d5c4-9f83-4f8c-b056-945f90c9cafd', 'a99feaca6256f7d78353b55e2b0a9745', 'ZKzwtox2Tajmt4pUXSTCz89C7I5Y3MlY', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-26 15:24:40] select @out_account_id, @out_result
+[2017-05-26 15:25:13] call create_new_account('AC7B2A72-0597-4325-95FA-0B9FB56DD83F', 'bde6c09c-1547-44ef-830a-cb47d8d602da', '4204de42b1c8f8dccfdf955c787ffbdb', '1Sh0XaXspQVaVs3OvcvMh47mBQriT47w', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-26 15:25:13] select @out_account_id, @out_result
+[2017-05-26 15:35:47] select * from account_base where username = 'bde6c09c-1547-44ef-830a-cb47d8d602da'
+[2017-05-26 15:37:03] select * from account_base where username = 'bde6c09c-1547-44ef-830a-cb47d8d602da'
+[2017-05-26 15:37:45] select * from account_base where username = 'bde6c09c-1547-44ef-830a-cb47d8d602da'
+[2017-05-26 15:45:24] select * from account_base where username = 'bde6c09c-1547-44ef-830a-cb47d8d602da'
+[2017-05-26 15:47:45] select * from account_base where username = 'bde6c09c-1547-44ef-830a-cb47d8d602da'
+[2017-05-26 15:59:36] call create_new_account('AD048FC1-E4CB-401A-9791-DDDD23D397ED', '47d4aa1c-f137-4854-9370-c2d00afd96c7', '1adc7fcd48a76c06bc270c68db74c910', 'rAVWpKbUhKRQZ4VaJi1W1iTYZE5iZArI', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-26 15:59:36] select @out_account_id, @out_result

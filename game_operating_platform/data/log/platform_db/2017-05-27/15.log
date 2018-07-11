@@ -1,0 +1,15 @@
+[2017-05-27 15:04:00] call create_new_account('65633FDB-D9D9-4B41-9536-73C96DE26EBA', '6fd5bcf8-c71f-4e85-804c-77b287dc4e87', '0bc66a7dfdfa80094ee8b4c98af28ca1', 'izozqJgPqTuJOhYJOVuHWb0JETelerOl', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:04:00] select @out_account_id, @out_result
+[2017-05-27 15:11:28] call create_new_account('CDC4F4D8-B20E-4A5E-8612-98100A9AFE19', '984edd52-f997-428b-ba67-f43cdee8b0c7', '00c056c5f257e5bb78c8b2c5fe67c81a', 'xgzOp09IP4f6xQfGRMVQ5QHWturi5MLw', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:11:28] select @out_account_id, @out_result
+[2017-05-27 15:11:51] call create_new_account('6B85732E-E388-44EA-AB00-F343445D3B5D', 'bcff3559-56bb-4420-a836-1be0710cfd9e', '524a6a3bd18bbf2093828b3d74b146de', 'BuJOJMXOhIjshuduR6jGF4jUli9upCh2', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:11:51] select @out_account_id, @out_result
+[2017-05-27 15:17:19] call create_new_account('980D3CAF-CB3E-415D-87C3-70539F896861', '6e2c1f9e-c993-497b-9fb7-e3696a356073', '3179620368f25ad8f7e78e1e0397b575', 'GVqtK7kf21u1IDcnmPwbQ78JO3mX6hA7', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:17:19] select @out_account_id, @out_result
+[2017-05-27 15:27:40] call create_new_account('6C766A55-4F1E-4AF7-BDDF-E98473B58C76', '9ec82424-a97c-4949-85e3-9489d7567602', '84cc285c86dd3c3ec6627eb85319abad', 'CpOFAte5YF0JQ1OPYZy70zAPYfAXmBsT', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:27:40] select @out_account_id, @out_result
+[2017-05-27 15:43:14] call create_new_account('6B27DEFB-5396-4ECD-8C47-842CEE50D082', 'fdad5012-d1e8-414a-963e-99d3ffaa6867', 'c290912b69e082d98bc21f7721916e27', 'Of8B4peJEl0jIx0JQ7gdYlMZMb4Fk7cz', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:43:14] select @out_account_id, @out_result
+[2017-05-27 15:48:01] select * from account_base where username = 'fdad5012-d1e8-414a-963e-99d3ffaa6867'
+[2017-05-27 15:54:23] call create_new_account('D89D1306-6417-48E2-8325-B6A87CF5FE3C', '5025cde3-bbd3-4b15-9dcc-4d6bba5a8e2f', '20826b76fe29a00bd9dd0852f59ad2d7', 'QLexIxq1epOtOx4ti3S92doXWPi96Nwp', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-27 15:54:23] select @out_account_id, @out_result

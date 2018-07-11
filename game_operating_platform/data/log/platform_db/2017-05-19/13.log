@@ -1,0 +1,16 @@
+[2017-05-19 13:48:23] call create_new_account('30A0E738-5A86-4AD7-B23C-2107E4C536F0', '3fcbd8e6-366c-4840-85e3-c5cb942828ed', 'a7b5cdb0f0a4e90ac533a7c66f66319b', 'VoBIFanM9IDWRy3ibufcrg98jYtwvaTS', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 13:48:23] select @out_account_id, @out_result
+[2017-05-19 13:48:37] call create_new_account('29B94893-78F4-4F19-BF8F-54933C7FB8FA', 'f7ff2d59-b72a-47cb-beaf-bc42b4016079', '74f8b64a874516b55fd582caad73cb15', 'YnmhglKh2xcZK5CPwfq54Pch8nKdo50x', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 13:48:37] select @out_account_id, @out_result
+[2017-05-19 13:49:50] call create_new_account('53666E2A-9F1F-44AD-BF4E-90D87030CC76', 'b3198855-6777-4964-a8cc-d480e82bdfe7', '9d7613fcca3ad684626dec00cbfb2bcf', 'mjI7m5EvQnM32DOjAREv4rYtqZG7kP4J', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 13:49:50] select @out_account_id, @out_result
+[2017-05-19 13:52:21] call create_new_account('69BC4C69-4298-4549-9B19-82458C8288E3', '5118461e-c4c4-42de-96bd-56acd53ac6e5', '50def1201dfb4ac4759e6c231cc201f0', 'knkRKjSFKJ6rQniN4d6BObIrq96Ha14X', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 13:52:21] select @out_account_id, @out_result
+[2017-05-19 13:52:35] call create_new_account('EC766FC0-B4C1-4CDC-9CE9-D1F0F8FC1707', '347b6fea-2d76-4f87-a29f-a242a75dcd92', 'bbee0ee77ccafa4d8c61829b9dae17d0', 't8NSn0P8bghkP6B65SdEF81wjK5mfSnY', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 13:52:35] select @out_account_id, @out_result
+[2017-05-19 13:56:45] call create_new_account('6BA4DA33-2B1C-409C-8E9F-22EA565AFE29', 'e473b968-a6e1-4663-a7e9-3d79f48eb328', '9d63e3a889d3953ec6719a739a05ba1f', 'y1MHGDwR8j2H8h4HYxi9SdsPc5EH6vij', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-19 13:56:45] select @out_account_id, @out_result
+[2017-05-19 13:58:32] select * from account_base where username = 'e473b968-a6e1-4663-a7e9-3d79f48eb328'
+[2017-05-19 13:58:53] select * from account_base where username = 'e473b968-a6e1-4663-a7e9-3d79f48eb328'
+[2017-05-19 13:59:19] select * from account_base where username = 'e473b968-a6e1-4663-a7e9-3d79f48eb328'
+[2017-05-19 13:59:57] select * from account_base where username = 'e473b968-a6e1-4663-a7e9-3d79f48eb328'

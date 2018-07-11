@@ -1,0 +1,3 @@
+[2017-06-20 12:08:35] call create_new_account('D618C2E2-F67B-49C1-A356-83B93AABA189', '9ba299f5-c1eb-4a53-afb9-571342b90483', 'da3e9b7ca01af59f2c1387c2aaebdb6b', 'LKXyvArU1kNkTkrmPaHuBwretibKP6jy', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-20 12:08:35] select @out_account_id, @out_result
+[2017-06-20 12:38:16] select * from account_base where username = '9ba299f5-c1eb-4a53-afb9-571342b90483'

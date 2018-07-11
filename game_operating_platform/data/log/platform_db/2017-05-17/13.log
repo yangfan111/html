@@ -1,0 +1,17 @@
+[2017-05-17 13:04:56] call create_new_account('523F06B8-88DC-4E6B-B2C0-A6EB06BE890E', 'f283592c-8efb-431e-9a97-aa580979f4e7', '308104989bdf102ce3a5f429fd7395b5', 'dwRU3YDq9ovctUR018NQ12Z2dGfGL6zI', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:04:56] select @out_account_id, @out_result
+[2017-05-17 13:06:28] call create_new_account('EFFC9A38-9160-4861-9775-7814B7F81A41', 'd385c09c-ab36-42b5-a358-37f57dbe41a7', 'f1fc461233a11ce5f192d9b289d403cb', 'y16PMrShozMPydqfolkJSd4xMj8zAlUT', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:06:28] select @out_account_id, @out_result
+[2017-05-17 13:12:34] call create_new_account('87FD09C5-D689-4A75-A4AF-88D34FDECC64', '7f0148b3-4fe7-4c60-b706-c37637ed57d0', 'fc9623085d6b7114010158c56aed066b', 'zeZO1or8tmBgviH4lY7ajyRoTOFWJyjG', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:12:34] select @out_account_id, @out_result
+[2017-05-17 13:17:42] call create_new_account('385D8B5F-5EA6-402C-99EB-0B465CD36434', 'eaa67015-4aec-4022-a129-d2428fa3e0d9', 'cc2168255887cbd0dbea35cf45cfce97', 'p8DQXUXOzehWn0f6JkBgdoj49qXIRmbg', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:17:42] select @out_account_id, @out_result
+[2017-05-17 13:22:40] call create_new_account('CED40053-D2A5-424C-9EF0-1B432906A4C9', 'be7579cc-a0db-4475-a5be-565671fbfd8d', '51b0395ec2594318ae198453544f2919', '854tWPun8jqjO3gZU7wPKtw747EJAn6p', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:22:40] select @out_account_id, @out_result
+[2017-05-17 13:25:10] call create_new_account('31C8DC47-9485-430A-B504-4311B78A3060', 'cd73f014-f5b9-4db3-abc9-5e46abf1a0bd', 'a158cf8c1d3f478da92f3c738d2be089', '9Wdyv6vW5e9a7ydMl6zkVMbQZG3KRcj6', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:25:10] select @out_account_id, @out_result
+[2017-05-17 13:27:45] call create_new_account('8A7D942E-29F1-4A4C-B4B7-891DBE8686B0', 'd17dc634-8ff7-44da-a1b9-1e5b9d637797', '9b58359780c4038270f5b75d5b0f2adf', 'r0jEXWrqt2lm1wvsJQ3ArOfw12TEPGTs', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-17 13:27:45] select @out_account_id, @out_result
+[2017-05-17 13:34:34] select * from account_base where username = 'd17dc634-8ff7-44da-a1b9-1e5b9d637797'
+[2017-05-17 13:42:57] select * from account_base where username = 'd17dc634-8ff7-44da-a1b9-1e5b9d637797'
+[2017-05-17 13:46:40] select * from account_base where username = 'd17dc634-8ff7-44da-a1b9-1e5b9d637797'

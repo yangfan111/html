@@ -1,0 +1,18 @@
+[2017-06-09 11:00:20] call create_new_account('B7CF0F58-64B2-4607-821C-29AD1BD35063', '508cae4b-44e7-40c7-8e44-f8af6c4fa0a0', 'e4fe414c6f3a5955aceac161c891a791', 'izAvAxOXy5KpYJI9avo5UrC1wN03Mx03', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-09 11:00:20] select @out_account_id, @out_result
+[2017-06-09 11:02:56] call create_new_account('457FE5E9-270C-474E-BB80-41B214033FEB', 'c6479731-da18-406b-9371-1298fd0c1ffd', '431373607f612ae01df4dc33c246d5bb', 'oLgpcbIh4roTqrGFM5StIFw1aLUTM7gN', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-09 11:02:56] select @out_account_id, @out_result
+[2017-06-09 11:12:19] call create_new_account('9479648E-D21C-4C6D-94A5-81F36D792A59', 'c30089d4-e04b-4c2a-bf2a-48c73dd09b79', '767dc7db1fa7e3a6bfd470fc0315cefa', 'jqtgLyNEHkh0XUFepEbc9G9YFeTu5gxK', '127.0.0.1', @out_account_id, @out_result)
+[2017-06-09 11:12:19] select @out_account_id, @out_result
+[2017-06-09 11:12:29] call create_new_account('558F9F39-18ED-405E-9207-1DEFFF3F217B', 'ccb85dfc-1b73-4c1c-8b29-c5896a65d5b3', 'b7da8bf134e2f433a5dedaf747652a59', 'dIHcHUfGBKDUZMVivOPczw3ajKHKtaBG', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-09 11:12:29] select @out_account_id, @out_result
+[2017-06-09 11:13:38] call create_new_account('0FD47D9A-A86E-49D5-9913-08B39748507D', '40283cfa-3523-47a7-9efe-d3267907be70', 'e721b61076ce8a4de0eda4181d760512', 'ZodAxElCH25OV0TSNCVIruZ4DglEPoRQ', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-09 11:13:38] select @out_account_id, @out_result
+[2017-06-09 11:14:00] call create_new_account('FB617851-5E11-407B-AACD-828A73B109B8', '8358fa30-e213-4380-81bf-01bff1e979df', 'dfe53ba7ca94e105eafa34663afa5228', 'yRYVgf2NEXiP41wTMNif0ZqripOdsfet', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-09 11:14:00] select @out_account_id, @out_result
+[2017-06-09 11:15:41] select * from account_base where username = '8358fa30-e213-4380-81bf-01bff1e979df'
+[2017-06-09 11:16:53] select * from account_base where username = '8358fa30-e213-4380-81bf-01bff1e979df'
+[2017-06-09 11:18:34] select * from account_base where username = '8358fa30-e213-4380-81bf-01bff1e979df'
+[2017-06-09 11:19:30] select * from account_base where username = '8358fa30-e213-4380-81bf-01bff1e979df'
+[2017-06-09 11:20:27] call create_new_account('080609D1-AFB0-44F8-8AC5-343878EC33A3', 'eebb6d73-e4b4-4273-a4d7-5018b9f322d0', '34ee91484854936de2be5caa11740609', '8PQn49UDm1a9wjEjyJkH2RARa9IZk9gF', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-09 11:20:27] select @out_account_id, @out_result

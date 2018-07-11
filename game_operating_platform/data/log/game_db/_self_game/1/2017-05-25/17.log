@@ -1,0 +1,12 @@
+[2017-05-25 17:06:56] call web_login(551, 'default_self', 'bb2dcbe713dd32650700bb8ebabaee26', '172.17.96.98', @out_new_user)
+[2017-05-25 17:06:56] select @out_new_user
+[2017-05-25 17:07:07] call web_login(552, 'default_self', 'da60c65a0f407184a98a4545704fd495', '172.17.96.98', @out_new_user)
+[2017-05-25 17:07:07] select @out_new_user
+[2017-05-25 17:27:08] call web_login(553, 'default_self', '07255ee91991805de87df0f8c6598f47', '172.17.96.98', @out_new_user)
+[2017-05-25 17:27:08] select @out_new_user
+[2017-05-25 17:32:59] call web_login(554, 'default_self', 'c33daefb26eaaeac325e8847a494b0b6', '172.17.96.98', @out_new_user)
+[2017-05-25 17:32:59] select @out_new_user
+[2017-05-25 17:39:18] call web_login(555, 'default_self', 'cb8a57a29f45e59edff3a297039cd6e1', '172.17.96.98', @out_new_user)
+[2017-05-25 17:39:18] select @out_new_user
+[2017-05-25 17:59:57] call web_login(556, 'default_self', 'bc2f07617d96f2adb6c177ffe77017ae', '172.17.96.98', @out_new_user)
+[2017-05-25 17:59:57] select @out_new_user

@@ -1,0 +1,31 @@
+[2017-06-16 15:06:08] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:21:39] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:23:35] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:25:20] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:28:32] call create_new_account('1136B15F-24D7-456B-A51C-02B4BA9B7676', 'e3c8b38c-73d4-451c-a268-4fb5ec4c9472', '70036d0897874ab37a3e1c920da3049c', 'nyLGDa7cnqpuX0LIfeHCB4zonIZYV8t4', '172.17.241.26', @out_account_id, @out_result)
+[2017-06-16 15:28:32] select @out_account_id, @out_result
+[2017-06-16 15:35:36] call create_new_account('6B7668EE-7639-4C3D-9407-332E2524C4BF', '77639bc1-2b6a-4de4-8ad2-cbc50c51dd06', '4333de9af3f38d58149273f4f8fa0435', 'QHiXwDczK94V8By58BWxOF87CFSH6Hwx', '172.17.241.26', @out_account_id, @out_result)
+[2017-06-16 15:35:36] select @out_account_id, @out_result
+[2017-06-16 15:36:30] call create_new_account('8F393A49-C57C-4023-A1FF-C64FD3629909', '66c50560-2ea4-474c-823c-7bc81e39bc79', 'ba97ce4b3ac7c9e3dacfa5b7957dc8b1', 'o3EVA9UfMX8Zi5sxkN6JGnUrovybC9iH', '172.17.241.26', @out_account_id, @out_result)
+[2017-06-16 15:36:30] select @out_account_id, @out_result
+[2017-06-16 15:37:31] select * from account_base where username = 'f1b0baa1-547f-439f-a8c8-ae12c4f3a8b0'
+[2017-06-16 15:38:08] select * from account_base where username = 'f1b0baa1-547f-439f-a8c8-ae12c4f3a8b0'
+[2017-06-16 15:38:17] call create_new_account('ADAEA045-E97B-444E-A87A-FC0F2587B6E1', '469bbce7-ec13-4507-bb46-48c10091abd1', '3000910331a9684ab70c6e1f7f8c8659', 'lGx4XIFIxOVC7Uj6PGfWvcnI1EpQJ2Hk', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-16 15:38:17] select @out_account_id, @out_result
+[2017-06-16 15:38:43] call create_new_account('2149BD3D-E0E5-4222-9450-4355EB08C9EE', 'ef66d1d3-decd-4deb-af99-248bb7563286', 'd8b41bd89bf6769f15af9615d81be25d', 'CNQZup6FQTGBmtKrmxSXyHafejOVMtmX', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-16 15:38:43] select @out_account_id, @out_result
+[2017-06-16 15:39:05] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:39:33] select * from account_base where username = 'ef66d1d3-decd-4deb-af99-248bb7563286'
+[2017-06-16 15:39:42] call create_new_account('2A57CFE5-17D6-4FC4-BC97-D88557920C18', 'b4139410-022d-45f2-baec-90dca9554e42', '486686f85994fac2350403de2693742b', 'Il6jmnmbULY1qtEJWfqdSfgJIbKxyz2R', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-16 15:39:42] select @out_account_id, @out_result
+[2017-06-16 15:40:58] select * from account_base where username = 'b4139410-022d-45f2-baec-90dca9554e42'
+[2017-06-16 15:41:32] call create_new_account('CB1BD4F2-AC44-4FBE-AE47-752FC33A0827', '14154abb-3dc4-48b1-8d5c-e9763a7852ce', 'f34135b394c80f7024495292eb813fcc', 'WPSfOnStC30FO9Q5cpk1o3Iv854tWPun', '172.17.241.26', @out_account_id, @out_result)
+[2017-06-16 15:41:32] select @out_account_id, @out_result
+[2017-06-16 15:41:49] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:48:30] select * from account_base where username = '8ec3045c-a2e2-4397-976f-81b34169ac3e'
+[2017-06-16 15:49:16] call create_new_account('86668889-DF11-42A0-9037-76B57E0DDD13', '99d54ca5-2cd3-4766-b61a-1efbcedb85d7', '45a16b7c69a0f8049ba95b679a169e2e', '69sDS3sNCxQ7qTQPgvYVmxGNwvglgvG9', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-16 15:49:16] select @out_account_id, @out_result
+[2017-06-16 15:51:18] call create_new_account('1BB36F17-B2D8-4037-AF84-54E23D376594', 'd6f4755f-4dec-4ba7-8c11-64b02db55f81', 'da59da27d3a52402913cbb0e85bf8782', 'BsBYryrQt4BQL6Bq7kZEnupOFGBs5kdy', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-16 15:51:18] select @out_account_id, @out_result
+[2017-06-16 15:53:53] select * from account_base where username = 'd6f4755f-4dec-4ba7-8c11-64b02db55f81'
+[2017-06-16 15:55:45] select * from account_base where username = 'd6f4755f-4dec-4ba7-8c11-64b02db55f81'

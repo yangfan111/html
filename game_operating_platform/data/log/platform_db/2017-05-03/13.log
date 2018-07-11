@@ -1,0 +1,19 @@
+[2017-05-03 13:07:19] select * from account_base where username = 'aaa'
+[2017-05-03 13:09:31] select * from account_base where username = 'aaa'
+[2017-05-03 13:10:32] select * from account_base where username = 'aaa'
+[2017-05-03 13:11:38] select * from account_base where username = 'aaa'
+[2017-05-03 13:22:24] select * from account_base where username = 'aaa'
+[2017-05-03 13:22:59] select * from account_base where username = 'aaa'
+[2017-05-03 13:24:53] select * from account_base where username = 'aaa'
+[2017-05-03 13:28:17] select * from account_base where username = 'aaa'
+[2017-05-03 13:38:58] select * from account_base where username = 'aaa'
+[2017-05-03 13:39:31] select * from account_base where username = 'aaa'
+[2017-05-03 13:45:20] select * from account_base where username = 'eee'
+[2017-05-03 13:45:25] call create_new_account('1E5E019F-DFF5-477A-8A9C-75D8BAECF48D', 'eee', 'dd2818be0b39812ace8ad7b7c3eae184', 'pUXYHQzKXATOzOjoDWjsbiD8Fu9sVGJ8', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-03 13:45:26] select @out_account_id, @out_result
+[2017-05-03 13:46:24] select * from account_base where username = 'eee'
+[2017-05-03 13:46:29] call create_new_account('E5BD0735-6D70-4C31-9796-0CB6D99E317A', 'www', '1ba79032646068e6055bc9a61c085672', 'fkXiJmnQHSPMZ6jAtGNmFChsNUJsFQZS', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-03 13:46:29] select @out_account_id, @out_result
+[2017-05-03 13:46:55] select * from account_base where username = 'www'
+[2017-05-03 13:47:52] call create_new_account('0BBD99CA-B636-4C41-97EC-DBC3DA0E6A97', 'ccc', '7b4790f3702ec5dd786eade191dae280', '9mlSHOBUR0PK9Qpe7gXMpaNeXgzwhGDO', '127.0.0.1', @out_account_id, @out_result)
+[2017-05-03 13:47:52] select @out_account_id, @out_result

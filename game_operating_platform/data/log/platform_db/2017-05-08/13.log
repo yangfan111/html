@@ -1,0 +1,18 @@
+[2017-05-08 13:03:34] select * from account_base where username = '0fe298a8-7a72-4816-9db0-b7a4e9a806e4'
+[2017-05-08 13:08:28] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:12:24] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:13:18] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:16:51] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:21:03] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:23:14] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:26:48] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:27:51] select * from account_base where username = 'c780fd87-2511-433f-916c-0a566df6c4e0'
+[2017-05-08 13:27:57] call create_new_account('D473CD22-7247-4384-AC1E-8F1F1C4C60E4', 'f019f45e-1e2b-4439-b62d-5f57245a1c8b', 'f4c17cb262ce17b7e66440800979a415', 'RGF0FwT6nCNWvEBoFQPm7UHyfKHgj67S', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-08 13:27:57] select @out_account_id, @out_result
+[2017-05-08 13:32:23] call create_new_account('5AB72954-2A3F-4D84-B69E-AD7740125DD5', '6d8c46b7-328b-4a8b-9a34-ff6a14f311b2', 'bb79c1744bc476ad34918ca00e0cae62', 'AJovidUZipErarqd0TM1s9arO7YlyNab', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-08 13:32:23] select @out_account_id, @out_result
+[2017-05-08 13:32:45] call create_new_account('05B16ED6-9928-43EA-B5DA-66E29B440B9E', '59760cf2-9585-4386-8ec6-dc326335da76', 'a85042f0211604054d3085d49adc627e', '3UdeVmPKPUpw7o9WjALs7i9YtOXKPqlG', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-08 13:32:45] select @out_account_id, @out_result
+[2017-05-08 13:57:49] select * from account_base where username = '59760cf2-9585-4386-8ec6-dc326335da76'
+[2017-05-08 13:58:04] select * from account_base where username = '0fe298a8-7a72-4816-9db0-b7a4e9a806e4'
+[2017-05-08 13:59:10] select * from account_base where username = '59760cf2-9585-4386-8ec6-dc326335da76'

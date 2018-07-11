@@ -1,0 +1,31 @@
+[2017-05-04 10:36:18] select * from account_base where username = 'www'
+[2017-05-04 10:36:36] select * from account_base where username = 'www'
+[2017-05-04 10:36:50] select * from account_base where username = 'aaa'
+[2017-05-04 10:39:05] select * from account_base where username = 'aaa'
+[2017-05-04 10:40:25] select * from account_base where username = 'aaa'
+[2017-05-04 10:41:27] select * from account_base where username = 'aaa'
+[2017-05-04 10:42:00] select * from account_base where username = 'www'
+[2017-05-04 10:42:38] call create_new_account('86C77262-0FA7-4350-BAC7-DA0CF38B5AC2', 'teddy', '9bb7e11aea7704fea75e0d0fcd0a8e3a', '9ERgl4d29cvCvIpyRG3QnQ5oNUfilMlu', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-04 10:42:38] select @out_account_id, @out_result
+[2017-05-04 10:43:23] select * from account_base where username = 'www'
+[2017-05-04 10:43:35] select * from account_base where username = 'teddy'
+[2017-05-04 10:43:42] select * from account_base where username = 'aa'
+[2017-05-04 10:43:47] select * from account_base where username = 'aa'
+[2017-05-04 10:43:56] select * from account_base where username = 'aaa'
+[2017-05-04 10:44:05] select * from account_base where username = 'teddy'
+[2017-05-04 10:47:46] select * from account_base where username = 'aaa'
+[2017-05-04 10:48:48] select * from account_base where username = 'teddy'
+[2017-05-04 10:53:00] select * from account_base where username = 'aaa'
+[2017-05-04 10:54:10] select * from account_base where username = 'aaa'
+[2017-05-04 10:55:10] select * from account_base where username = 'aaa'
+[2017-05-04 10:55:31] select * from account_base where username = '81d37930-9f22-4b68-b48c-d6252c82e133'
+[2017-05-04 10:55:51] select * from account_base where username = 'aaa'
+[2017-05-04 10:55:52] call create_new_account('B0125558-D596-48BA-B223-92D43B37E7D2', '9e34f4cc-3456-4937-96ed-44c1d225c734', 'eae305c4c72a6a8665cb1330c4e45ffb', 'qbqv29cpuhIdaTuRWTk7MvsH2J6lErwh', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-04 10:55:52] select @out_account_id, @out_result
+[2017-05-04 10:56:00] call create_new_account('85F1BA34-6E6A-4DEC-BCB6-29E68DCE76C1', 'cc22c129-ca19-415f-97d4-4919e94665ce', '215a81bfb287867eadb2df32030f91de', 'XAjyzgjSLg7SZwnAP0LUpCd652Hw9qdA', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-04 10:56:00] select * from account_base where username = 'cc22c129-ca19-415f-97d4-4919e94665ce'
+[2017-05-04 10:56:00] select @out_account_id, @out_result
+[2017-05-04 10:57:10] select * from account_base where username = 'aaa'
+[2017-05-04 10:57:46] select * from account_base where username = 'aaa'
+[2017-05-04 10:58:56] select * from account_base where username = 'aaa'
+[2017-05-04 10:59:32] select * from account_base where username = 'aaa'

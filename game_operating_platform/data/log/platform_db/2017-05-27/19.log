@@ -1,0 +1,16 @@
+[2017-05-27 19:10:00] call create_new_account('05905633-A00A-481D-8BBC-683E1F2DF206', 'e1d4d6fe-4d80-4612-8f4a-250c648811b8', '83929e0e8f5c42d14536c8d453cc647f', 'GV2R4FeN6rglQxY5KNwZMFkjovAlEVcf', '172.17.99.94', @out_account_id, @out_result)
+[2017-05-27 19:10:00] select @out_account_id, @out_result
+[2017-05-27 19:13:33] call create_new_account('367EA145-131F-4758-88AC-ED71D9123442', 'd34bf5ef-3b2e-4d6b-957b-1b8f492d2be5', 'd4a068b3c78d76b9af7a9dec15459609', '9QRwLgjGnwzYrMxO9sb4Xef6b69KjulG', '172.17.99.94', @out_account_id, @out_result)
+[2017-05-27 19:13:33] select @out_account_id, @out_result
+[2017-05-27 19:24:13] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:24:47] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:26:20] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:28:14] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:29:19] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:30:10] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:30:40] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:31:01] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:34:46] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:36:24] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:37:08] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'
+[2017-05-27 19:38:00] select * from account_base where username = '761fedf9-bff2-46dd-9ea1-a7082f4a8975'

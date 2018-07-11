@@ -1,0 +1,2 @@
+[2017-06-07 11:02:51] call create_new_account('2B7B0A05-6708-4B65-9335-5ABDECFB5C31', '15769be8-5ba0-418a-b3a7-5351bc50edb5', '6f13aae467f15cfc4e61439cff7a02d2', 'dYlMZMb4Fk7czOZ2Riv8RuPSbMXmnmVg', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-07 11:02:51] select @out_account_id, @out_result

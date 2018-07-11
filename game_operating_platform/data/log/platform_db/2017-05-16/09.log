@@ -1,0 +1,6 @@
+[2017-05-16 09:41:20] call create_new_account('83279345-EB75-4389-A81B-3EFDB5309391', '54a386a6-4970-48cb-bfcd-33b86971c807', '7012079cf01937fa0f86486fb7d0e687', 'ozIvQLkJ6JYXeHup6LihGNALgTgn8zQF', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 09:41:20] select @out_account_id, @out_result
+[2017-05-16 09:42:37] call create_new_account('3D2F49EC-EB53-4D7A-A630-99D84B0B51C0', '38b6f605-2617-4596-b1c7-d0b05f12d0d1', '2743f5db6f045c5d406cc4db6ed351f0', 'Lyr8zWhodWtYvuvehoXA5CDOviBspmRO', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 09:42:37] select @out_account_id, @out_result
+[2017-05-16 09:45:31] call create_new_account('780307BC-6549-4F60-A00A-15E42AFF0C7B', '3c04000e-47e1-41e4-9448-7ce8950eacd0', '0db7abf408f4cf8f62cc4c37980cf669', 'rqXo3apg5gb6hCzyNQpULuj45QZMrYxo', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-16 09:45:31] select @out_account_id, @out_result

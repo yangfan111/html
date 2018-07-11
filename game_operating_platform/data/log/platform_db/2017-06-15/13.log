@@ -1,0 +1,12 @@
+[2017-06-15 13:17:21] select * from account_base where username = '1cd72586-8a75-494e-91f0-500e4ef81d18'
+[2017-06-15 13:20:05] select * from account_base where username = '1cd72586-8a75-494e-91f0-500e4ef81d18'
+[2017-06-15 13:20:51] select * from account_base where username = '1cd72586-8a75-494e-91f0-500e4ef81d18'
+[2017-06-15 13:23:46] call create_new_account('55A1FD2B-18DC-46A2-B3FB-ADC0CCB53D77', '7a617c49-17b2-4f6b-b0b9-0c133cd72bcd', 'f83480d463140589eb4da698f4693af2', 'RCD2zO1ABepydu5mhK3cVqhmNclKx4FY', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-15 13:23:46] select @out_account_id, @out_result
+[2017-06-15 13:24:24] call create_new_account('B032C63A-8FBA-4234-BB25-882A037A1E3C', '740a584e-fa79-4949-bfa2-607466fb9415', 'bba864bca67a59de07d3ad2d7a71e889', '7MTMpKPwxg3iVijqBy5ETkxadaTI9ITY', '172.17.240.132', @out_account_id, @out_result)
+[2017-06-15 13:24:24] select @out_account_id, @out_result
+[2017-06-15 13:31:38] select * from account_base where username = '1cd72586-8a75-494e-91f0-500e4ef81d18'
+[2017-06-15 13:41:56] select * from account_base where username = '1cd72586-8a75-494e-91f0-500e4ef81d18'
+[2017-06-15 13:42:12] select * from account_base where username = '1cd72586-8a75-494e-91f0-500e4ef81d18'
+[2017-06-15 13:46:29] call create_new_account('4AE4BD89-F0D0-4F6E-8B17-F6CBBE0F8F6B', '45ba63f5-a8d5-4de6-b750-8233206d9612', 'acfbc0031e82a1113ab3beda592c45fd', 'zCNE7yvCjk5qXYT4XgR4RC7klOpGjID4', '172.17.96.98', @out_account_id, @out_result)
+[2017-06-15 13:46:29] select @out_account_id, @out_result

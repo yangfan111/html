@@ -1,0 +1,19 @@
+[2017-05-26 16:00:47] call create_new_account('BC5E1CB4-1B1D-4555-9311-2BD51D5F19EE', '357dde40-caba-4be6-af15-8dffd89f54cf', '775b68a1135c5089baa14c3961963d14', '8Zy9sFE1iTeNS5uxcDOH2hIXEfYj0TIb', '172.17.96.98', @out_account_id, @out_result)
+[2017-05-26 16:00:47] select @out_account_id, @out_result
+[2017-05-26 16:01:25] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:02:38] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:05:27] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:07:45] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:30:41] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:30:57] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:31:19] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:32:14] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:34:11] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:37:22] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:43:59] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:44:45] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:46:41] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:48:36] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:50:22] select * from account_base where username = '357dde40-caba-4be6-af15-8dffd89f54cf'
+[2017-05-26 16:57:06] call create_new_account('E9A5D0F0-7D5C-4454-84F5-4E0F5431DD8D', '2ec4bd86-f31b-473d-96d3-8baaba5ec0f4', '0ee6e00b259e142ca1ca7914f7ca8604', 'qZAlQ3qJKZKXire3UNcDqtmdCNQfi36R', '172.17.240.132', @out_account_id, @out_result)
+[2017-05-26 16:57:06] select @out_account_id, @out_result
