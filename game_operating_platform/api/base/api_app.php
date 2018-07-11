@@ -274,7 +274,7 @@ class api_app
 
 		echo $str;
 	}
-
+	//---------------------MARK---------------------
 	private static function real_process($req_data) {
 		//解析请求
 		list($pro_obj, $req_obj) = self::$_process->parse_request_obj($req_data);
@@ -312,6 +312,7 @@ class api_app
 	 */
 	public static function process($req_data) {
 		$begin = microtime(true);
+		//MARK REAL PROCESS
 		self::real_process($req_data);
 		$end = microtime(true);
 

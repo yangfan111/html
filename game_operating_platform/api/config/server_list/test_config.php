@@ -2,6 +2,11 @@
 
 class game_server_list_data
 {
+
+	public $server_list = array(
+		
+	);
+
 	//客户端、web端所有信息。
 	public $list = array(
 		#服务器id(切记为字符串)
