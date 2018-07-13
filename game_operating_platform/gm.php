@@ -1,16 +1,16 @@
 <?php
 
-//后台管理入口
+//鍚庡彴绠＄悊鍏ュ彛
 
-//框架配置
+//妗嗘灦閰嶇疆
 $framework_config  = (object)array();    
 
-//设置开始处理请求前的回调函数
+//璁剧疆寮�濮嬪鐞嗚姹傚墠鐨勫洖璋冨嚱鏁�
 $framework_config->before_process_check_request_func = array("gm_mgr", "before_process_check_request");
 
-//设置请求处理完毕时的回调函数
+//璁剧疆璇锋眰澶勭悊瀹屾瘯鏃剁殑鍥炶皟鍑芥暟
 $framework_config->process_request_end_func = array("gm_mgr", "process_request_end"); 
 
-//框架入口
+//妗嗘灦鍏ュ彛
 require_once "index.php";
 

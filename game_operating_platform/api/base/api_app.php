@@ -52,7 +52,7 @@ class api_app
 	public static function init($framework_config = null) {
 		if (self::$_process != null)
 			return;
-
+		
 		self::$_process = new api_process();
 
 		self::$_request_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/api_request/');

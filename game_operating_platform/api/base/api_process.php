@@ -5,6 +5,7 @@
  */
 class api_process
 {
+	//处理实例汇总
 	private $_class_obj = array();
 
 	/*
