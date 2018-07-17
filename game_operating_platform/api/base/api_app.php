@@ -51,15 +51,14 @@ class api_app
 	 */
 	public static function init($framework_config = null) {
 		if (self::$_process != null)
-			return;
-		
+		return;
+
 		self::$_process = new api_process();
 
 		self::$_request_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/api_request/');
 
 		self::$_profile_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/api_request_profile/');
 
-		self::$_framework_config = $framework_config;
 	}
 
 	/*
@@ -99,13 +98,13 @@ class api_app
 	public static function getGameGiftDB($game_id) {
 		$info = game_list_config::findGameByGameID($game_id);
 		if (!$info)
-			return null;
+		return null;
 
 		$giftdbinfo = $info->gift_database;
 		if (isset($giftdbinfo->__gift_dbobj))
-			$dbobj = $giftdbinfo->__gift_dbobj;
+		$dbobj = $giftdbinfo->__gift_dbobj;
 		else
-			$dbobj = null;
+		$dbobj = null;
 
 		if ($dbobj) {
 			if (!$dbobj->select_db($giftdbinfo->db_name)) {
@@ -137,12 +136,12 @@ class api_app
 	public static function getGameServerDB($game_id, $server_id) {
 		$server_id = (string)$server_id;
 		if (!game_list_config::loadGameServerListByGameID($game_id))
-			return null;
+		return null;
 
 		$info = game_server_list_config::getServerInfo($server_id);
 
 		if (!$info)
-			return null;
+		return null;
 
 		if (isset($info['__db_obj__'])) {
 			if (!$info['__db_obj__']->select_db($info['db_name'])) {
@@ -250,61 +249,28 @@ class api_app
 		self::$_result_use_zlib = $use_zlib;
 	}
 
-	/*
-	 * 对请求的结果进行处理
-	 */
-	private static function process_request_result($result, $use_zlib) {
-		if ($result == null)
-			return;
 
-		//若请求不成功，则记录失败的请求的日志
-		if ($result->error_code != api_error_type::SUCCEED) {
-			if (!self::$_failed_request_log) {
-				self::$_failed_request_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/api_failed_request/');
-			}
-
-			self::$_failed_request_log->writeToFile(self::getRequestContentString() . "   do failed. failed info:" . $result->toString());
-		}
-
-		$str = $result->toString();
-
-		if ($use_zlib) {
-			$str = gzcompress($str);
-		}
-
-		echo $str;
-	}
 	//---------------------MARK---------------------
 	private static function real_process($req_data) {
-		//解析请求
+		//解析,验证请求
 		list($pro_obj, $req_obj) = self::$_process->parse_request_obj($req_data);
-
-		if (self::$_framework_config != null) {
-			if (isset(self::$_framework_config->init_func)) {
-				call_user_func_array(self::$_framework_config->init_func, array(self::$_framework_config->init_arg));
-			}
-
-			if (isset(self::$_framework_config->before_process_check_request_func)) {
-				list($continue_do, $new_req) = call_user_func_array(self::$_framework_config->before_process_check_request_func, array($req_obj));
-				if (!$continue_do) {
-					//此时直接返回
-					return;
-				}
-
-				$req_obj = $new_req;
-			}
+		//TODO:判断是否做初始化
+		call_user_func(api_frame_opcode::$init_func,array(api_frame_opcode::$init_arg));
+		//1.执行开始操作
+		list($continue_do, $new_req) = call_user_func(api_frame_opcode::$gm_before_process_req_func, array($req_obj));
+		if (!$continue_do) {
+			//此时直接返回
+			return;
 		}
-
+		$req_obj = $new_req;
+		//2.执行操作
 		self::$_process->process($pro_obj, $req_obj);
-
-		if (self::$_framework_config != null) {
-			if (isset(self::$_framework_config->process_request_end_func)) {
-				call_user_func_array(self::$_framework_config->process_request_end_func, array($req_obj, self::$_resultobj));
-			}
-		}
-
+		//3.执行结束操作
+		call_user_func_array(api_frame_opcode::$gm_end_process_req_func, array($req_obj, self::$_resultobj));
+		//4.执行处理结果
 		self::process_request_result(self::$_resultobj, self::$_result_use_zlib);
 	}
+
 
 	/*
 	 * 处理请求
@@ -328,6 +294,30 @@ class api_app
 		} else {
 			self::logRequest(self::$_profile_log, $usetime);
 		}
+	}
+	/*
+	 * 对请求的结果进行处理
+	 */
+	private static function process_request_result($result, $use_zlib) {
+		if ($result == null)
+		return;
+
+		//若请求不成功，则记录失败的请求的日志
+		if ($result->error_code != api_error_type::SUCCEED) {
+			if (!self::$_failed_request_log) {
+				self::$_failed_request_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/api_failed_request/');
+			}
+
+			self::$_failed_request_log->writeToFile(self::getRequestContentString() . "   do failed. failed info:" . $result->toString());
+		}
+
+		$str = $result->toString();
+
+		if ($use_zlib) {
+			$str = gzcompress($str);
+		}
+
+		echo $str;
 	}
 }
 
