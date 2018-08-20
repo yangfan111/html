@@ -1,0 +1,801 @@
+payer_name	game_operating_platform\aibei_pay_update.php	/^$payer_name = "aibei";$/;"	v
+API_ROOT	game_operating_platform\api\api_init.php	/^define('API_ROOT', dirname(__FILE__));$/;"	d
+_class_arr	game_operating_platform\api\api_init.php	/^$_class_arr = array($/;"	v
+_db	game_operating_platform\api\base\api_app.php	/^	private static $_db = null;$/;"	v
+_db_log	game_operating_platform\api\base\api_app.php	/^	private static $_db_log = null;$/;"	v
+_error_log	game_operating_platform\api\base\api_app.php	/^	private static $_error_log = null;$/;"	v
+_failed_request_log	game_operating_platform\api\base\api_app.php	/^	private static $_failed_request_log = null;$/;"	v
+_framework_config	game_operating_platform\api\base\api_app.php	/^	private static $_framework_config = null;$/;"	v
+_log	game_operating_platform\api\base\api_app.php	/^	private static $_log = null;$/;"	v
+_over_elapsed_log	game_operating_platform\api\base\api_app.php	/^	private static $_over_elapsed_log = null;$/;"	v
+_process	game_operating_platform\api\base\api_app.php	/^	private static $_process = null;$/;"	v
+_profile_log	game_operating_platform\api\base\api_app.php	/^	private static $_profile_log = null;$/;"	v
+_request_log	game_operating_platform\api\base\api_app.php	/^	private static $_request_log = null;$/;"	v
+_result_use_zlib	game_operating_platform\api\base\api_app.php	/^	private static $_result_use_zlib = false;$/;"	v
+_resultobj	game_operating_platform\api\base\api_app.php	/^	private static $_resultobj = null;$/;"	v
+api_app	game_operating_platform\api\base\api_app.php	/^class api_app {$/;"	c
+begin	game_operating_platform\api\base\api_app.php	/^		$begin = microtime(true);$/;"	v
+clearResult	game_operating_platform\api\base\api_app.php	/^	public static function clearResult() {$/;"	f
+dbobj	game_operating_platform\api\base\api_app.php	/^			$dbobj = $giftdbinfo->__gift_dbobj;$/;"	v
+dbobj	game_operating_platform\api\base\api_app.php	/^			$dbobj = new lx_Mysql();$/;"	v
+dbobj	game_operating_platform\api\base\api_app.php	/^			$dbobj = null;$/;"	v
+dbobj	game_operating_platform\api\base\api_app.php	/^		$dbobj = new lx_Mysql();$/;"	v
+dbobj	game_operating_platform\api\base\api_app.php	/^		$dbobj = self::$_db;$/;"	v
+end	game_operating_platform\api\base\api_app.php	/^		$end = microtime(true);$/;"	v
+errorLog	game_operating_platform\api\base\api_app.php	/^	public static function errorLog($error_str) {$/;"	f
+game_db_log	game_operating_platform\api\base\api_app.php	/^		$game_db_log = new lx_FileLog(WEB_ROOT_DIR . '\/data\/log\/game_db\/' . $game_id . '\/' . $server_id . '\/');$/;"	v
+game_gift_db_log	game_operating_platform\api\base\api_app.php	/^		$game_gift_db_log = new lx_FileLog(WEB_ROOT_DIR . '\/data\/log\/game_gift_db\/' . $game_id . '\/');$/;"	v
+getDB	game_operating_platform\api\base\api_app.php	/^	public static function getDB() {$/;"	f
+getGameGiftDB	game_operating_platform\api\base\api_app.php	/^	public static function getGameGiftDB($game_id) {$/;"	f
+getGameServerDB	game_operating_platform\api\base\api_app.php	/^	public static function getGameServerDB($game_id, $server_id) {$/;"	f
+getRequestContentString	game_operating_platform\api\base\api_app.php	/^	public static function getRequestContentString() {$/;"	f
+getRequesterIP	game_operating_platform\api\base\api_app.php	/^	public static function getRequesterIP() {$/;"	f
+get_data	game_operating_platform\api\base\api_app.php	/^		$get_data = $_SERVER['QUERY_STRING'];$/;"	v
+giftdbinfo	game_operating_platform\api\base\api_app.php	/^		$giftdbinfo = $info->gift_database;$/;"	v
+http_host	game_operating_platform\api\base\api_app.php	/^			$http_host = $_SERVER['HTTP_HOST'];$/;"	v
+http_host	game_operating_platform\api\base\api_app.php	/^		$http_host = "";$/;"	v
+info	game_operating_platform\api\base\api_app.php	/^		$info = game_list_config::findGameByGameID($game_id);$/;"	v
+info	game_operating_platform\api\base\api_app.php	/^		$info = game_server_list_config::getServerInfo($server_id);$/;"	v
+info_str	game_operating_platform\api\base\api_app.php	/^			$info_str = $_SERVER['REMOTE_ADDR'] . '  request  ' . 'http:\/\/' . $http_host . htmlentities($_SERVER['PHP_SELF']) . '  post data:' . $post_data;$/;"	v
+info_str	game_operating_platform\api\base\api_app.php	/^			$info_str = $_SERVER['REMOTE_ADDR'] . '  request  ' . 'http:\/\/' . $http_host . htmlentities($_SERVER['PHP_SELF']) . '?' . $get_data;$/;"	v
+info_str	game_operating_platform\api\base\api_app.php	/^			$info_str = $_SERVER['REMOTE_ADDR'] . '  request  ' . 'http:\/\/' . $http_host . htmlentities($_SERVER['PHP_SELF']);$/;"	v
+info_str	game_operating_platform\api\base\api_app.php	/^		$info_str = self::getRequestContentString();$/;"	v
+init	game_operating_platform\api\base\api_app.php	/^	public static function init($framework_config = null) {$/;"	f
+logRequest	game_operating_platform\api\base\api_app.php	/^	public static function logRequest($fileobj = null, $usetime = null) {$/;"	f
+post_data	game_operating_platform\api\base\api_app.php	/^		$post_data = file_get_contents("php:\/\/input");$/;"	v
+process	game_operating_platform\api\base\api_app.php	/^	public static function process($req_data) {$/;"	f
+process_request_result	game_operating_platform\api\base\api_app.php	/^	private static function process_request_result($result, $use_zlib) {$/;"	f
+pushResult	game_operating_platform\api\base\api_app.php	/^	public static function pushResult($result, $use_zlib = false) {$/;"	f
+real_process	game_operating_platform\api\base\api_app.php	/^	private static function real_process($req_data) {$/;"	f
+req_obj	game_operating_platform\api\base\api_app.php	/^		$req_obj = $new_req;$/;"	v
+server_id	game_operating_platform\api\base\api_app.php	/^		$server_id = (string) $server_id;$/;"	v
+str	game_operating_platform\api\base\api_app.php	/^			$str = gzcompress($str);$/;"	v
+str	game_operating_platform\api\base\api_app.php	/^		$str = $result->toString();$/;"	v
+use_zlib	game_operating_platform\api\base\api_app.php	/^	public static function pushResult($result, $use_zlib = false) {$/;"	v
+usetime	game_operating_platform\api\base\api_app.php	/^		$usetime = ($end - $begin) * 1000;$/;"	v
+usetime	game_operating_platform\api\base\api_app.php	/^	public static function logRequest($fileobj = null, $usetime = null) {$/;"	v
+writeLog	game_operating_platform\api\base\api_app.php	/^	public static function writeLog($str) {$/;"	f
+_class_obj	game_operating_platform\api\base\api_process.php	/^	private $_class_obj = array();$/;"	v
+api_process	game_operating_platform\api\base\api_process.php	/^class api_process$/;"	c
+arg	game_operating_platform\api\base\api_process.php	/^		$arg = $reqobj->arg;$/;"	v
+class_name	game_operating_platform\api\base\api_process.php	/^		$class_name = $pro_obj['class'];$/;"	v
+cobj	game_operating_platform\api\base\api_process.php	/^			$cobj = $this->_class_obj[$class_name];$/;"	v
+cobj	game_operating_platform\api\base\api_process.php	/^			$cobj = new $class_name;$/;"	v
+cobj	game_operating_platform\api\base\api_process.php	/^		$cobj = null;$/;"	v
+method_name	game_operating_platform\api\base\api_process.php	/^		$method_name = $pro_obj['method'];$/;"	v
+parse_request_obj	game_operating_platform\api\base\api_process.php	/^	public function parse_request_obj($datastr) {$/;"	f
+pro_obj	game_operating_platform\api\base\api_process.php	/^		$pro_obj = api_opcode::$opcode[$reqobj->opcode];$/;"	v
+process	game_operating_platform\api\base\api_process.php	/^	public function process($pro_obj, $reqobj) {$/;"	f
+reqobj	game_operating_platform\api\base\api_process.php	/^		$reqobj = json_decode($datastr);$/;"	v
+reqobj	game_operating_platform\api\base\api_process.php	/^		if ($pro_obj == null || $reqobj == null)$/;"	v
+res	game_operating_platform\api\base\api_process.php	/^		$res = $cobj->{$method_name}($reqobj->arg);$/;"	v
+response_zlib	game_operating_platform\api\base\api_process.php	/^					$response_zlib = false;$/;"	v
+response_zlib	game_operating_platform\api\base\api_process.php	/^					$response_zlib = true;$/;"	v
+response_zlib	game_operating_platform\api\base\api_process.php	/^				$response_zlib = false;$/;"	v
+response_zlib	game_operating_platform\api\base\api_process.php	/^			$response_zlib = $pro_obj['response_zlib'];$/;"	v
+response_zlib	game_operating_platform\api\base\api_process.php	/^		$response_zlib = false;$/;"	v
+api_db_config	game_operating_platform\api\config\api_db_config.php	/^class api_db_config$/;"	c
+db_ip	game_operating_platform\api\config\api_db_config.php	/^	public static $db_ip = "127.0.0.1";$/;"	v
+db_name	game_operating_platform\api\config\api_db_config.php	/^	public static $db_name = "account_platform";$/;"	v
+db_password	game_operating_platform\api\config\api_db_config.php	/^	public static $db_password = "";$/;"	v
+db_username	game_operating_platform\api\config\api_db_config.php	/^	public static $db_username = "root";$/;"	v
+_all_list	game_operating_platform\api\config\game_gm_data_list_config.php	/^	private static $_all_list = null;$/;"	v
+game_gm_data_list_config	game_operating_platform\api\config\game_gm_data_list_config.php	/^class game_gm_data_list_config$/;"	c
+getAttachmentTypeSet	game_operating_platform\api\config\game_gm_data_list_config.php	/^	public static function getAttachmentTypeSet($type_id) {$/;"	f
+getGiftInfo	game_operating_platform\api\config\game_gm_data_list_config.php	/^	public static function getGiftInfo($gift_config_id) {$/;"	f
+link	game_operating_platform\api\config\game_gm_data_list_config.php	/^	public static function link($all_list) {$/;"	f
+list	game_operating_platform\api\config\game_gm_data_list_config.php	/^	public $list = array($/;"	v
+__init	game_operating_platform\api\config\game_list_config.php	/^	private static $__init = false;$/;"	v
+__init	game_operating_platform\api\config\game_list_config.php	/^	private static function __init() {$/;"	f
+_channel_set	game_operating_platform\api\config\game_list_config.php	/^	private static $_channel_set = array($/;"	v
+_game_list	game_operating_platform\api\config\game_list_config.php	/^	private static $_game_list = null;$/;"	v
+app_id	game_operating_platform\api\config\game_list_config.php	/^			foreach ($ch_info["game_list"] as $app_id => $app_info) {$/;"	v
+ch	game_operating_platform\api\config\game_list_config.php	/^		foreach (self::$_channel_set as $ch => $ch_info) {$/;"	v
+checkHasChannel	game_operating_platform\api\config\game_list_config.php	/^	public static function checkHasChannel($channel) {$/;"	f
+data	game_operating_platform\api\config\game_list_config.php	/^			$data = new game_gm_data_list();$/;"	v
+data	game_operating_platform\api\config\game_list_config.php	/^			$data = new game_recharge_list_data();$/;"	v
+data	game_operating_platform\api\config\game_list_config.php	/^			$data = new game_server_list_data();$/;"	v
+findGameByGameID	game_operating_platform\api\config\game_list_config.php	/^	public static function findGameByGameID($game_id) {$/;"	f
+game_list_config	game_operating_platform\api\config\game_list_config.php	/^class game_list_config$/;"	c
+info	game_operating_platform\api\config\game_list_config.php	/^				$info = (object)array();$/;"	v
+info	game_operating_platform\api\config\game_list_config.php	/^		$info = self::findGameByGameID($game_id);$/;"	v
+list	game_operating_platform\api\config\game_list_config.php	/^		$list = array();$/;"	v
+loadGameGMDataByGameID	game_operating_platform\api\config\game_list_config.php	/^	public static function loadGameGMDataByGameID($game_id) {$/;"	f
+loadGameRechargeListByGameID	game_operating_platform\api\config\game_list_config.php	/^	public static function loadGameRechargeListByGameID($game_id) {$/;"	f
+loadGameServerListByGameID	game_operating_platform\api\config\game_list_config.php	/^	public static function loadGameServerListByGameID($game_id) {$/;"	f
+path	game_operating_platform\api\config\game_list_config.php	/^		$path = API_ROOT. "\/config\/gm_data_list\/" . $info->gm_data_list_filename . '.php';$/;"	v
+path	game_operating_platform\api\config\game_list_config.php	/^		$path = API_ROOT. "\/config\/recharge_list\/" . $info->recharge_list_filename . '.php';$/;"	v
+path	game_operating_platform\api\config\game_list_config.php	/^		$path = API_ROOT. "\/config\/server_list\/" . $info->server_list_filename . '.php';$/;"	v
+res	game_operating_platform\api\config\game_list_config.php	/^		$res = require_once($path);$/;"	v
+_all_list	game_operating_platform\api\config\game_recharge_list_config.php	/^	private static $_all_list = null;$/;"	v
+game_recharge_list_config	game_operating_platform\api\config\game_recharge_list_config.php	/^class game_recharge_list_config$/;"	c
+getRmbInfo	game_operating_platform\api\config\game_recharge_list_config.php	/^	public static function getRmbInfo($rmb) {$/;"	f
+link	game_operating_platform\api\config\game_recharge_list_config.php	/^	public static function link($all_list) {$/;"	f
+list	game_operating_platform\api\config\game_recharge_list_config.php	/^	public $list = array($/;"	v
+_all_list	game_operating_platform\api\config\game_server_list_config.php	/^	private static $_all_list = null;$/;"	v
+_server_list	game_operating_platform\api\config\game_server_list_config.php	/^	private static $_server_list = null;$/;"	v
+game_server_list_config	game_operating_platform\api\config\game_server_list_config.php	/^class game_server_list_config$/;"	c
+getServerInfo	game_operating_platform\api\config\game_server_list_config.php	/^	public static function getServerInfo($server_id) {$/;"	f
+getServerListForClient	game_operating_platform\api\config\game_server_list_config.php	/^	public static function getServerListForClient() {$/;"	f
+id	game_operating_platform\api\config\game_server_list_config.php	/^		foreach (self::$_all_list as $id => $info) {$/;"	v
+link	game_operating_platform\api\config\game_server_list_config.php	/^	public static function link($all_list) {$/;"	f
+list	game_operating_platform\api\config\game_server_list_config.php	/^	public $list = array($/;"	v
+temp	game_operating_platform\api\config\game_server_list_config.php	/^			$temp = array();$/;"	v
+game_recharge_list_data	game_operating_platform\api\config\recharge_list\test_config.php	/^class game_recharge_list_data$/;"	c
+list	game_operating_platform\api\config\recharge_list\test_config.php	/^	public $list = array($/;"	v
+game_server_list_data	game_operating_platform\api\config\server_list\test_config.php	/^class game_server_list_data$/;"	c
+list	game_operating_platform\api\config\server_list\test_config.php	/^	public $list = array($/;"	v
+server_list	game_operating_platform\api\config\server_list\test_config.php	/^	public $server_list = array($/;"	v
+add_to_att_obj	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function add_to_att_obj(obj, tp, id, num) {$/;"	f
+check_and_do_get_gift	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function check_and_do_get_gift(do_type) {$/;"	f
+check_and_do_month_card	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function check_and_do_month_card(do_type) {$/;"	f
+check_and_do_player_mail	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function check_and_do_player_mail(do_type) {$/;"	f
+check_and_do_recharge	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function check_and_do_recharge(do_type) {$/;"	f
+check_and_do_system_mail	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function check_and_do_system_mail(do_type) {$/;"	f
+do_gm_command	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function do_gm_command() {$/;"	f
+get_do_button_name	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function get_do_button_name(opstr) {$/;"	f
+mail_common_make_req	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function mail_common_make_req(name) {$/;"	f
+on_check_data_result	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function on_check_data_result(rt) {$/;"	f
+on_do_result	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function on_do_result(rt) {$/;"	f
+on_gm_command_result	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function on_gm_command_result(rt) {$/;"	f
+tab_change	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function tab_change(name) {$/;"	f
+try_gm_exit	game_operating_platform\api\gm\_gm_in_opt_view.php	/^function try_gm_exit() {$/;"	f
+pass_key_down	game_operating_platform\api\gm\_gm_login_view.php	/^function pass_key_down(event, name) {$/;"	f
+try_gm_login	game_operating_platform\api\gm\_gm_login_view.php	/^function try_gm_login() {$/;"	f
+db	game_operating_platform\api\gm\gm_base_handler.php	/^		$db = api_app::getDB();$/;"	v
+db_res	game_operating_platform\api\gm\gm_base_handler.php	/^		$db_res = $db->query(sprintf("select * from gm_account where account_id = '%s'", $user->account_id));$/;"	v
+game_id_server_list	game_operating_platform\api\gm\gm_base_handler.php	/^		$game_id_server_list = $row['game_id_server_list'];$/;"	v
+gm_base_handler	game_operating_platform\api\gm\gm_base_handler.php	/^class gm_base_handler extends user_login$/;"	c
+gm_exit	game_operating_platform\api\gm\gm_base_handler.php	/^	public function gm_exit($arg) {$/;"	f
+gm_login	game_operating_platform\api\gm\gm_base_handler.php	/^	public function gm_login($arg) {$/;"	f
+ip_filter	game_operating_platform\api\gm\gm_base_handler.php	/^		$ip_filter = $row['ip_filter'];$/;"	v
+o	game_operating_platform\api\gm\gm_base_handler.php	/^		$o = json_decode($game_id_server_list);$/;"	v
+res	game_operating_platform\api\gm\gm_base_handler.php	/^		$res = $this->do_login($user);$/;"	v
+row	game_operating_platform\api\gm\gm_base_handler.php	/^		$row = $db->fetch_array($db_res);$/;"	v
+user	game_operating_platform\api\gm\gm_base_handler.php	/^		$user = new user_center();$/;"	v
+user	game_operating_platform\api\gm\gm_base_handler.php	/^		$user = user_center::getUser();$/;"	v
+_gm_log	game_operating_platform\api\gm\gm_mgr.php	/^	private static $_gm_log = null;$/;"	v
+before_process_check_request	game_operating_platform\api\gm\gm_mgr.php	/^	public static function before_process_check_request($req_obj) {$/;"	f
+gm_mgr	game_operating_platform\api\gm\gm_mgr.php	/^class gm_mgr$/;"	c
+lifeTime	game_operating_platform\api\gm\gm_mgr.php	/^		$lifeTime = 2 * 3600;$/;"	v
+process_request_end	game_operating_platform\api\gm\gm_mgr.php	/^	public static function process_request_end($req_obj, $resultobj) {$/;"	f
+set_gm_session_lifetime	game_operating_platform\api\gm\gm_mgr.php	/^	public static function set_gm_session_lifetime() {$/;"	f
+show_in_gm_opt_view	game_operating_platform\api\gm\gm_mgr.php	/^	private static function show_in_gm_opt_view() {$/;"	f
+show_login_view	game_operating_platform\api\gm\gm_mgr.php	/^	private static function show_login_view() {$/;"	f
+user	game_operating_platform\api\gm\gm_mgr.php	/^		$user = user_center::getUser();$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^			$__get_arg = (object)array();$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^		$__get_arg = (object)array();$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^	public function check_get_gift($arg, $__get_arg = null) {$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^	public function check_month_card($arg, $__get_arg = null) {$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^	public function check_player_mail($arg, $__get_arg = null) {$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^	public function check_recharge($arg, $__get_arg = null) {$/;"	v
+__get_arg	game_operating_platform\api\gm\gm_process.php	/^	public function check_system_mail($arg, $__get_arg = null) {$/;"	v
+accountid	game_operating_platform\api\gm\gm_process.php	/^			$accountid = $row['@out_accountid'];$/;"	v
+accountid	game_operating_platform\api\gm\gm_process.php	/^		$accountid = $__get_arg->accountid;$/;"	v
+as_char_common_check	game_operating_platform\api\gm\gm_process.php	/^	private function as_char_common_check($arg, $__get_arg, $handler_ch_name, $need_check_char = true) {$/;"	f
+attinfo	game_operating_platform\api\gm\gm_process.php	/^			$attinfo = game_gm_data_list_config::getAttachmentTypeSet((string)$tp);$/;"	v
+c_info	game_operating_platform\api\gm\gm_process.php	/^		$c_info = "";$/;"	v
+c_info	game_operating_platform\api\gm\gm_process.php	/^		$c_info = sprintf("开始时间:\\n\\t%s\\n结束时间:\\n\\t%s\\n等级大于等于:\\n\\t%s\\nvip大于等于:\\n\\t%s\\n", date('Y-m-d H:i:s', $start_time), date('Y-m-d H:i:s', $end_time), $level, $vip);$/;"	v
+channel	game_operating_platform\api\gm\gm_process.php	/^		$channel = "_gm_channel_";$/;"	v
+char_name	game_operating_platform\api\gm\gm_process.php	/^			$char_name = $row['@out_char_name'];$/;"	v
+check_get_gift	game_operating_platform\api\gm\gm_process.php	/^	public function check_get_gift($arg, $__get_arg = null) {$/;"	f
+check_mail_attachment_list	game_operating_platform\api\gm\gm_process.php	/^	private function check_mail_attachment_list($game_id, $attachment, $__get_arg) {$/;"	f
+check_month_card	game_operating_platform\api\gm\gm_process.php	/^	public function check_month_card($arg, $__get_arg = null) {$/;"	f
+check_player_mail	game_operating_platform\api\gm\gm_process.php	/^	public function check_player_mail($arg, $__get_arg = null) {$/;"	f
+check_recharge	game_operating_platform\api\gm\gm_process.php	/^	public function check_recharge($arg, $__get_arg = null) {$/;"	f
+check_res	game_operating_platform\api\gm\gm_process.php	/^		$check_res = $this->check_get_gift($arg, $__get_arg);$/;"	v
+check_res	game_operating_platform\api\gm\gm_process.php	/^		$check_res = $this->check_month_card($arg, $__get_arg);$/;"	v
+check_res	game_operating_platform\api\gm\gm_process.php	/^		$check_res = $this->check_player_mail($arg, $__get_arg);$/;"	v
+check_res	game_operating_platform\api\gm\gm_process.php	/^		$check_res = $this->check_recharge($arg, $__get_arg);$/;"	v
+check_res	game_operating_platform\api\gm\gm_process.php	/^		$check_res = $this->check_system_mail($arg, $__get_arg);$/;"	v
+check_system_mail	game_operating_platform\api\gm\gm_process.php	/^	public function check_system_mail($arg, $__get_arg = null) {$/;"	f
+common_can_handler_game_and_server	game_operating_platform\api\gm\gm_process.php	/^	private function common_can_handler_game_and_server($game_id, $server_id) {$/;"	f
+common_check_is_ok	game_operating_platform\api\gm\gm_process.php	/^	private function common_check_is_ok() {$/;"	f
+common_res	game_operating_platform\api\gm\gm_process.php	/^		$common_res = $this->as_char_common_check($arg, $__get_arg, "发送系统邮件", false);$/;"	v
+common_res	game_operating_platform\api\gm\gm_process.php	/^		$common_res = $this->as_char_common_check($arg, $__get_arg, "发送邮件到玩家");$/;"	v
+data	game_operating_platform\api\gm\gm_process.php	/^			$data = (string)$wt->data;$/;"	v
+data	game_operating_platform\api\gm\gm_process.php	/^		$data = $row['data'];$/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^			$db_res = $game_db->query("select @out_accountid, @out_char_name");$/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^			$db_res = $game_db->query("select @out_result, @out_error");$/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^			$db_res = $game_db->query(sprintf("call web_get_char_info_by_char_dbid(%s, @out_accountid, @out_char_name)", $arg->char_dbid));$/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^			$db_res = $game_db->query(sprintf("call web_recharge('%s', '%s', %s, %s, %s, @out_result, @out_error)", $game_db->escape_string(create_guid()), $game_db->escape_string($channel), $accountid, $recharge_num, $give_num));$/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^		$db_res = $game_db->query(sprintf("call web_add_web_task_as_gm_command(%s, '%s')", $/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^		$db_res = $game_db->query(sprintf("call web_add_web_task_as_gm_task(%s, '%s')", $/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^		$db_res = $game_db->query(sprintf("select * from web_task_log where gm_accountid = %s and " . $/;"	v
+db_res	game_operating_platform\api\gm\gm_process.php	/^		$db_res = $game_db->query(sprintf($/;"	v
+do_get_gift	game_operating_platform\api\gm\gm_process.php	/^	public function do_get_gift($arg) {$/;"	f
+do_gm_command	game_operating_platform\api\gm\gm_process.php	/^	public function do_gm_command($arg) {$/;"	f
+do_month_card	game_operating_platform\api\gm\gm_process.php	/^	public function do_month_card($arg) {$/;"	f
+do_player_mail	game_operating_platform\api\gm\gm_process.php	/^	public function do_player_mail($arg) {$/;"	f
+do_recharge	game_operating_platform\api\gm\gm_process.php	/^	public function do_recharge($arg) {$/;"	f
+do_system_mail	game_operating_platform\api\gm\gm_process.php	/^	public function do_system_mail($arg) {$/;"	f
+empty_att	game_operating_platform\api\gm\gm_process.php	/^				$empty_att = true;$/;"	v
+empty_att	game_operating_platform\api\gm\gm_process.php	/^		$empty_att = false;$/;"	v
+end_time	game_operating_platform\api\gm\gm_process.php	/^		$end_time = strtotime($arg->end_time);$/;"	v
+err_res	game_operating_platform\api\gm\gm_process.php	/^		$err_res = $this->as_char_common_check($arg, $__get_arg, "充值");$/;"	v
+err_res	game_operating_platform\api\gm\gm_process.php	/^		$err_res = $this->as_char_common_check($arg, $__get_arg, "执行gm命令", false);$/;"	v
+err_res	game_operating_platform\api\gm\gm_process.php	/^		$err_res = $this->as_char_common_check($arg, $__get_arg, "月卡");$/;"	v
+err_res	game_operating_platform\api\gm\gm_process.php	/^		$err_res = $this->as_char_common_check($arg, $__get_arg, "礼包");$/;"	v
+err_res	game_operating_platform\api\gm\gm_process.php	/^		$err_res = $this->mail_common_check($arg, $__get_arg);$/;"	v
+err_res	game_operating_platform\api\gm\gm_process.php	/^		$err_res = new api_result(-1, false);$/;"	v
+farg	game_operating_platform\api\gm\gm_process.php	/^			$farg = $row['execute_result'];$/;"	v
+farg	game_operating_platform\api\gm\gm_process.php	/^		$farg = "";$/;"	v
+ffmt	game_operating_platform\api\gm\gm_process.php	/^			$ffmt = "execute result:[%s]\\n\\n";$/;"	v
+ffmt	game_operating_platform\api\gm\gm_process.php	/^		$ffmt = "%s\\n";$/;"	v
+format_gm_command	game_operating_platform\api\gm\gm_process.php	/^	private function format_gm_command($row, $is_finish = true) {$/;"	f
+game_db	game_operating_platform\api\gm\gm_process.php	/^			$game_db = api_app::getGameServerDB($arg->game_id, $arg->server_id);$/;"	v
+game_db	game_operating_platform\api\gm\gm_process.php	/^		$game_db = api_app::getGameServerDB($arg->game_id, $arg->server_id);$/;"	v
+gameinfo	game_operating_platform\api\gm\gm_process.php	/^		$gameinfo = $__get_arg->gameinfo;$/;"	v
+gameinfo	game_operating_platform\api\gm\gm_process.php	/^		$gameinfo = game_list_config::findGameByGameID($arg->game_id);$/;"	v
+get_gm_account_id	game_operating_platform\api\gm\gm_process.php	/^	private function get_gm_account_id() {$/;"	f
+get_gm_handler_info	game_operating_platform\api\gm\gm_process.php	/^	private function get_gm_handler_info($msg) {$/;"	f
+get_un_finish_and_histroy_gm_command	game_operating_platform\api\gm\gm_process.php	/^	private function get_un_finish_and_histroy_gm_command($game_db, $err_res) {$/;"	f
+gift_info	game_operating_platform\api\gm\gm_process.php	/^		$gift_info = (object)$gift_info;$/;"	v
+gift_info	game_operating_platform\api\gm\gm_process.php	/^		$gift_info = game_gm_data_list_config::getGiftInfo((string)$arg->gift_config_id);$/;"	v
+give_num	game_operating_platform\api\gm\gm_process.php	/^		$give_num = (int)$arg->give_num;$/;"	v
+gm_process	game_operating_platform\api\gm\gm_process.php	/^class gm_process extends user_base$/;"	c
+has_error	game_operating_platform\api\gm\gm_process.php	/^			$has_error = $row['has_error'];$/;"	v
+has_error	game_operating_platform\api\gm\gm_process.php	/^		$has_error = $row['has_error'];$/;"	v
+header_info	game_operating_platform\api\gm\gm_process.php	/^			$header_info = sprintf("[%s]\\n", date('Y-m-d H:i:s', time()));$/;"	v
+header_info	game_operating_platform\api\gm\gm_process.php	/^		$header_info = sprintf("[%s]\\n", date('Y-m-d H:i:s', time()));$/;"	v
+history_info	game_operating_platform\api\gm\gm_process.php	/^			$history_info = $err_res->history_info;$/;"	v
+history_info	game_operating_platform\api\gm\gm_process.php	/^			$history_info = $history_info . $this->format_gm_command($row, true);$/;"	v
+history_info	game_operating_platform\api\gm\gm_process.php	/^		$history_info = "";$/;"	v
+history_info	game_operating_platform\api\gm\gm_process.php	/^		$history_info = $err_res->history_info;$/;"	v
+id	game_operating_platform\api\gm\gm_process.php	/^			foreach ($value as $id => $num) {$/;"	v
+id_info	game_operating_platform\api\gm\gm_process.php	/^				$id_info = $attinfo['list'][(string)$id];$/;"	v
+info_str	game_operating_platform\api\gm\gm_process.php	/^				$info_str = sprintf("%s\\t%s:%s个 (%sid:%s)\\n", $info_str, $id_info['name'], $num, $attinfo['name'], $id);$/;"	v
+info_str	game_operating_platform\api\gm\gm_process.php	/^			$info_str = sprintf("%s%s:\\n", $info_str, $attinfo['name']);$/;"	v
+info_str	game_operating_platform\api\gm\gm_process.php	/^		$info_str = "";$/;"	v
+is_finish	game_operating_platform\api\gm\gm_process.php	/^	private function format_gm_command($row, $is_finish = true) {$/;"	v
+level	game_operating_platform\api\gm\gm_process.php	/^		$level = (int)$arg->level;$/;"	v
+lt	game_operating_platform\api\gm\gm_process.php	/^		$lt = array();$/;"	v
+lt_idx	game_operating_platform\api\gm\gm_process.php	/^		$lt_idx = 0;$/;"	v
+mail_common_check	game_operating_platform\api\gm\gm_process.php	/^	private function mail_common_check($arg, $__get_arg) {$/;"	f
+maildata	game_operating_platform\api\gm\gm_process.php	/^		$maildata = (object)array();$/;"	v
+need_check_char	game_operating_platform\api\gm\gm_process.php	/^	private function as_char_common_check($arg, $__get_arg, $handler_ch_name, $need_check_char = true) {$/;"	v
+num	game_operating_platform\api\gm\gm_process.php	/^				$num = $num + 1;$/;"	v
+num	game_operating_platform\api\gm\gm_process.php	/^			$num = 0;$/;"	v
+recharge_num	game_operating_platform\api\gm\gm_process.php	/^		$recharge_num = (int)$arg->recharge_num;$/;"	v
+res	game_operating_platform\api\gm\gm_process.php	/^		$res = $this->check_mail_attachment_list($arg->game_id, $arg->attachment, $__get_arg);$/;"	v
+res	game_operating_platform\api\gm\gm_process.php	/^		$res = new api_result(0, false);$/;"	v
+row	game_operating_platform\api\gm\gm_process.php	/^			$row = $game_db->fetch_array($db_res);$/;"	v
+row	game_operating_platform\api\gm\gm_process.php	/^		$row = $game_db->fetch_array($db_res);$/;"	v
+server_info	game_operating_platform\api\gm\gm_process.php	/^		$server_info = game_server_list_config::getServerInfo($arg->server_id);$/;"	v
+server_list	game_operating_platform\api\gm\gm_process.php	/^		$server_list = $user->gm->game_list->{$game_id};$/;"	v
+server_list	game_operating_platform\api\gm\gm_process.php	/^		$server_list = null;$/;"	v
+start_time	game_operating_platform\api\gm\gm_process.php	/^		$start_time = strtotime($arg->start_time);$/;"	v
+state	game_operating_platform\api\gm\gm_process.php	/^			$state = "执行中";$/;"	v
+state	game_operating_platform\api\gm\gm_process.php	/^			$state = "执行失败";$/;"	v
+state	game_operating_platform\api\gm\gm_process.php	/^			$state = "执行成功";$/;"	v
+state	game_operating_platform\api\gm\gm_process.php	/^			$state = "等待执行";$/;"	v
+state	game_operating_platform\api\gm\gm_process.php	/^		$state = $row['state'];$/;"	v
+temp_arr	game_operating_platform\api\gm\gm_process.php	/^			$temp_arr = explode(',', $arg->channel);$/;"	v
+tp	game_operating_platform\api\gm\gm_process.php	/^			foreach ($attachment as $tp => $value) {$/;"	v
+tp	game_operating_platform\api\gm\gm_process.php	/^		foreach ($attachment as $tp => $value) {$/;"	v
+un_finish_info	game_operating_platform\api\gm\gm_process.php	/^			$un_finish_info = $err_res->un_finish_info;$/;"	v
+un_finish_info	game_operating_platform\api\gm\gm_process.php	/^			$un_finish_info = $this->format_gm_command($row, false);$/;"	v
+un_finish_info	game_operating_platform\api\gm\gm_process.php	/^		$un_finish_info = "";$/;"	v
+un_finish_info	game_operating_platform\api\gm\gm_process.php	/^		$un_finish_info = $err_res->un_finish_info;$/;"	v
+user	game_operating_platform\api\gm\gm_process.php	/^		$user = user_center::getUser();$/;"	v
+vip	game_operating_platform\api\gm\gm_process.php	/^		$vip = (int)$arg->vip;$/;"	v
+web_task	game_operating_platform\api\gm\gm_process.php	/^		$web_task = (object)array();$/;"	v
+wt	game_operating_platform\api\gm\gm_process.php	/^		$wt = json_decode($data);$/;"	v
+framework_config	game_operating_platform\api\index.php	/^	$framework_config = null;$/;"	v
+req_data	game_operating_platform\api\index.php	/^$req_data = getgpc("req_data", "P");$/;"	v
+api_frame_opcode	game_operating_platform\api\op_config\api_frame_opcode.php	/^class api_frame_opcode{$/;"	c
+gm_before_process_req_func	game_operating_platform\api\op_config\api_frame_opcode.php	/^	public static $gm_before_process_req_func =  array("gm_mgr", "before_process_check_request");$/;"	v
+gm_end_process_req_func	game_operating_platform\api\op_config\api_frame_opcode.php	/^	public static $gm_end_process_req_func =  array("gm_mgr", "process_request_end"); $/;"	v
+init_arg	game_operating_platform\api\op_config\api_frame_opcode.php	/^	public static $init_arg = "";\/\/TODO$/;"	v
+init_func	game_operating_platform\api\op_config\api_frame_opcode.php	/^	public static $init_func = array("pay_mgr", "init_payer");$/;"	v
+pay_end_process_req_func	game_operating_platform\api\op_config\api_frame_opcode.php	/^	public static $pay_end_process_req_func =  array("gm_mgr", "process_request_end"); $/;"	v
+api_opcode	game_operating_platform\api\op_config\api_opcode.php	/^class api_opcode$/;"	c
+opcode	game_operating_platform\api\op_config\api_opcode.php	/^	public static $opcode = array($/;"	v
+IappDecrypt	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^class IappDecrypt {$/;"	c
+gensign	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^	public function gensign($trans_data,$key){$/;"	f
+key1	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^		$key1 = base64_decode($key);$/;"	v
+key2	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^		$key2 = substr($key1,40,strlen($key1)-40);$/;"	v
+key3	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^		$key3 = base64_decode($key2);$/;"	v
+msg_md5	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^		$msg_md5 = md5($trans_data);$/;"	v
+rsa	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^		$rsa = new RSAUtil();$/;"	v
+sign_md5	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^		$sign_md5 = $rsa->decrypt($sign, $private_key, $mod_key);$/;"	v
+validsign	game_operating_platform\api\pay\aibei\IappDecrypt.php	/^	public function validsign($trans_data,$sign,$key){$/;"	f
+Math	game_operating_platform\api\pay\aibei\Math.php	/^class Math {$/;"	c
+a	game_operating_platform\api\pay\aibei\Math.php	/^			$a = $k;$/;"	v
+arr	game_operating_platform\api\pay\aibei\Math.php	/^		$arr = Array();$/;"	v
+arr	game_operating_platform\api\pay\aibei\Math.php	/^		$arr = array();$/;"	v
+asc	game_operating_platform\api\pay\aibei\Math.php	/^			$asc = bcmod($num, '256');$/;"	v
+b	game_operating_platform\api\pay\aibei\Math.php	/^			$b = bcmod($a, $b);$/;"	v
+bin2int	game_operating_platform\api\pay\aibei\Math.php	/^	public static function bin2int($string){$/;"	f
+bit	game_operating_platform\api\pay\aibei\Math.php	/^			$bit = chr($asc) . $bit;$/;"	v
+bit	game_operating_platform\api\pay\aibei\Math.php	/^		$bit = '';$/;"	v
+bitLen	game_operating_platform\api\pay\aibei\Math.php	/^	public static function bitLen($num) {$/;"	f
+byte	game_operating_platform\api\pay\aibei\Math.php	/^		if(is_array($byte)) $byte = implode('', $byte);$/;"	v
+byte2int	game_operating_platform\api\pay\aibei\Math.php	/^	public static function byte2int($byte){$/;"	f
+char	game_operating_platform\api\pay\aibei\Math.php	/^		$char = '0123456789abcdef';$/;"	v
+cnt	game_operating_platform\api\pay\aibei\Math.php	/^		$cnt = $bit_len % 8;$/;"	v
+dec2hex	game_operating_platform\api\pay\aibei\Math.php	/^	public static function dec2hex($num){$/;"	f
+get_gcd	game_operating_platform\api\pay\aibei\Math.php	/^	public static function get_gcd($a, $b){ \/\/Euclidean$/;"	f
+get_modinv	game_operating_platform\api\pay\aibei\Math.php	/^	public static function get_modinv($num, $m){ \/\/ 1\/$num mod $m$/;"	f
+get_prime	game_operating_platform\api\pay\aibei\Math.php	/^	public static function get_prime($bit_len) {$/;"	f
+hex	game_operating_platform\api\pay\aibei\Math.php	/^			$hex = $char[intval($k)] . $hex;$/;"	v
+hex	game_operating_platform\api\pay\aibei\Math.php	/^		$hex = '';$/;"	v
+hex2dec	game_operating_platform\api\pay\aibei\Math.php	/^	public static function hex2dec($num){$/;"	f
+index	game_operating_platform\api\pay\aibei\Math.php	/^			$index = strpos($char, $num[$i]);$/;"	v
+int2bin	game_operating_platform\api\pay\aibei\Math.php	/^	public static function int2bin($num){$/;"	f
+int2byte	game_operating_platform\api\pay\aibei\Math.php	/^	public static function int2byte($num){$/;"	f
+intlen	game_operating_platform\api\pay\aibei\Math.php	/^		$intlen = intval(($len + 3) \/ 4);$/;"	v
+is_prime	game_operating_platform\api\pay\aibei\Math.php	/^	public static function is_prime($num) {$/;"	f
+k	game_operating_platform\api\pay\aibei\Math.php	/^			$k = $b;$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^			$k = $tmp;$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^			$k = bcmod($num, '16');$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^		$k = $m;$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^		$k = 0;$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^		$k = intval($bit_len \/ 8);$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^		for($i = $len - 1, $k = 0; $i >= 0; $i--, $k++){$/;"	v
+k	game_operating_platform\api\pay\aibei\Math.php	/^		for($i = 0, $k = $len - 1; $i < $intlen; $i++){$/;"	v
+len	game_operating_platform\api\pay\aibei\Math.php	/^		$len = strlen($byte);$/;"	v
+len	game_operating_platform\api\pay\aibei\Math.php	/^		$len = strlen($num);$/;"	v
+len	game_operating_platform\api\pay\aibei\Math.php	/^		$len = strlen($tmp) * 8;$/;"	v
+mr_test	game_operating_platform\api\pay\aibei\Math.php	/^	public static function mr_test($num, $base) { \/\/Miller-Rabin Test$/;"	f
+n	game_operating_platform\api\pay\aibei\Math.php	/^			$n = min(3, $k + 1);$/;"	v
+n	game_operating_platform\api\pay\aibei\Math.php	/^			$n = mt_rand(0, 0xff) | 0x80;$/;"	v
+n	game_operating_platform\api\pay\aibei\Math.php	/^		$n = strlen($string);$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^			$num = $k;$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^			$num = bcdiv($num, '16');$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^			$num = bcdiv($num, '256');$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^			$num = self::bin2int($str);$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^			if (bcmod($num, '2') == '0') $num = bcadd($num, '1');$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^			while (self::is_prime($num) == false) $num = bcadd($num, '2');$/;"	v
+num	game_operating_platform\api\pay\aibei\Math.php	/^		$num = strtolower($num);$/;"	v
+primes	game_operating_platform\api\pay\aibei\Math.php	/^	private static $primes = array(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97);$/;"	v
+q	game_operating_platform\api\pay\aibei\Math.php	/^			$q = bcdiv($num, $k);$/;"	v
+result	game_operating_platform\api\pay\aibei\Math.php	/^			$result = bcadd(bcmul($result,'256'), ord($string{--$n}));$/;"	v
+result	game_operating_platform\api\pay\aibei\Math.php	/^		$result = '';$/;"	v
+result	game_operating_platform\api\pay\aibei\Math.php	/^		$result = '0';$/;"	v
+sign	game_operating_platform\api\pay\aibei\Math.php	/^		$sign = substr($byte, 0, 1) == '-' ? true : false;$/;"	v
+str	game_operating_platform\api\pay\aibei\Math.php	/^			$str = '';$/;"	v
+sum	game_operating_platform\api\pay\aibei\Math.php	/^			$sum = bcadd($sum, bcmul($index, bcpow('16', $k)));$/;"	v
+sum	game_operating_platform\api\pay\aibei\Math.php	/^		$sum = '0';$/;"	v
+sum	game_operating_platform\api\pay\aibei\Math.php	/^		foreach($arr as $v) $sum = bcadd($sum, $v);$/;"	v
+sum	game_operating_platform\api\pay\aibei\Math.php	/^		if($sign == true && $sum != '0') $sum = '-' . $sum;$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^			$tmp = bcdiv($tmp, '2');$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^			$tmp = bcmod($num, $k);$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^			$tmp = bcpowmod($tmp, '2', $num);$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^			$tmp = bcsub($x, bcmul($y, $q));$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^		$tmp = bcpowmod($base, $tmp, $num);$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^		$tmp = bcsub($num, '1');$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^		$tmp = ord($tmp {strlen($tmp) - 1});$/;"	v
+tmp	game_operating_platform\api\pay\aibei\Math.php	/^		$tmp = self::int2bin($num);$/;"	v
+x	game_operating_platform\api\pay\aibei\Math.php	/^			$x = $y;$/;"	v
+x	game_operating_platform\api\pay\aibei\Math.php	/^		$x = '1';$/;"	v
+x	game_operating_platform\api\pay\aibei\Math.php	/^		if (bccomp($x, '0') < 0) $x = bcadd($x, $m);$/;"	v
+y	game_operating_platform\api\pay\aibei\Math.php	/^			$y = $tmp;$/;"	v
+y	game_operating_platform\api\pay\aibei\Math.php	/^		$y = '0';$/;"	v
+RSAUtil	game_operating_platform\api\pay\aibei\RSAUtil.php	/^class RSAUtil {$/;"	c
+_key	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	private $_key = array();$/;"	v
+arr	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$arr = array();$/;"	v
+arr	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$arr = explode(' ', $string);$/;"	v
+bitlen	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$bitlen = $this->keylen * 2 - 1;$/;"	v
+bitlen	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$bitlen = ceil($bln \/ 8);$/;"	v
+bitlen	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$bitlen = intval($bitlen \/ 8);$/;"	v
+bln	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$bln = $this->keylen * 2 - 1;$/;"	v
+data	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$data = '';$/;"	v
+data	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$data = array();$/;"	v
+decrypt	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function decrypt($string, $d, $n){$/;"	f
+e	game_operating_platform\api\pay\aibei\RSAUtil.php	/^			if(Math::get_gcd($tmp, $ran) == '1') $e = $tmp;$/;"	v
+e	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$e = '0';$/;"	v
+encrypt	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function encrypt($string, $e, $n){$/;"	f
+get_n	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function get_n($p, $q){$/;"	f
+get_primes	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function get_primes(){$/;"	f
+get_private_key	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function get_private_key($ran, $public_key) {$/;"	f
+get_public_key	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function get_public_key($ran){$/;"	f
+get_ran	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public function get_ran($p, $q){$/;"	f
+index	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$index = count($arr) - 1;$/;"	v
+keylen	game_operating_platform\api\pay\aibei\RSAUtil.php	/^	public $keylen = 64;$/;"	v
+len	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$len = strlen($arr[$index]);$/;"	v
+len	game_operating_platform\api\pay\aibei\RSAUtil.php	/^		$len = strlen($string);$/;"	v
+tmp	game_operating_platform\api\pay\aibei\RSAUtil.php	/^			$tmp = Math::get_prime($this->keylen);$/;"	v
+v	game_operating_platform\api\pay\aibei\RSAUtil.php	/^			$v = Math::byte2int($v);$/;"	v
+v	game_operating_platform\api\pay\aibei\RSAUtil.php	/^			$v = Math::hex2dec($v);$/;"	v
+v	game_operating_platform\api\pay\aibei\RSAUtil.php	/^			$v = bcpowmod($v, $d, $n);$/;"	v
+v	game_operating_platform\api\pay\aibei\RSAUtil.php	/^			$v = bcpowmod($v, $e, $n);$/;"	v
+_sign	game_operating_platform\api\pay\aibei\payer_handler.php	/^	private static $_sign = null;$/;"	v
+_transdata	game_operating_platform\api\pay\aibei\payer_handler.php	/^	private static $_transdata = null;$/;"	v
+appid	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$appid = $trobj->appid;$/;"	v
+checkSign	game_operating_platform\api\pay\aibei\payer_handler.php	/^	public static function checkSign($app_secret) {$/;"	f
+checkobj	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$checkobj = new IappDecrypt();$/;"	v
+getFailedResponse	game_operating_platform\api\pay\aibei\payer_handler.php	/^	public static function getFailedResponse() {$/;"	f
+getSucceedResponse	game_operating_platform\api\pay\aibei\payer_handler.php	/^	public static function getSucceedResponse() {$/;"	f
+order_id	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$order_id = $trobj->exorderno;$/;"	v
+payer_handler	game_operating_platform\api\pay\aibei\payer_handler.php	/^class payer_handler$/;"	c
+private_data	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$private_data = $trobj->cpprivate;$/;"	v
+process_pay	game_operating_platform\api\pay\aibei\payer_handler.php	/^	public static function process_pay() {$/;"	f
+rmb	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$rmb = (int)($trobj->money \/ 100);$/;"	v
+sign	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$sign = $_POST["sign"];$/;"	v
+transdata	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$transdata = $_POST["transdata"];$/;"	v
+trobj	game_operating_platform\api\pay\aibei\payer_handler.php	/^		$trobj = json_decode($transdata);$/;"	v
+_payer_name	game_operating_platform\api\pay\pay_mgr.php	/^	private static $_payer_name = null;$/;"	v
+before_process_check_request	game_operating_platform\api\pay\pay_mgr.php	/^	public static function before_process_check_request($req_obj) {$/;"	f
+init_payer	game_operating_platform\api\pay\pay_mgr.php	/^	public static function init_payer($payer_name) {$/;"	f
+logobj	game_operating_platform\api\pay\pay_mgr.php	/^		$logobj = new lx_FileLog($path);$/;"	v
+path	game_operating_platform\api\pay\pay_mgr.php	/^			$path = WEB_ROOT_DIR . '\/data\/pay_log\/payer_error\/' . $payer_name . '\/';$/;"	v
+path	game_operating_platform\api\pay\pay_mgr.php	/^			$path = WEB_ROOT_DIR . '\/data\/pay_log\/unknow_error\/';$/;"	v
+path	game_operating_platform\api\pay\pay_mgr.php	/^		$path = WEB_ROOT_DIR . '\/data\/pay_log\/log\/' . $payer_name . '\/';$/;"	v
+pay_mgr	game_operating_platform\api\pay\pay_mgr.php	/^class pay_mgr$/;"	c
+payer_name	game_operating_platform\api\pay\pay_mgr.php	/^	private static function writeError($str, $payer_name = "") {$/;"	v
+res	game_operating_platform\api\pay\pay_mgr.php	/^		$res = require_once dirname(__FILE__) . "\/" . self::$_payer_name . "\/payer_handler.php";$/;"	v
+writeError	game_operating_platform\api\pay\pay_mgr.php	/^	private static function writeError($str, $payer_name = "") {$/;"	f
+writeLog	game_operating_platform\api\pay\pay_mgr.php	/^	private static function writeLog($str, $payer_name) {$/;"	f
+accountid	game_operating_platform\api\pay\pay_process.php	/^		$accountid = $row['@out_accountid'];$/;"	v
+already_num	game_operating_platform\api\pay\pay_process.php	/^		$already_num = $row['@out_already_num'];$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^			$db_res = $game_db->query(sprintf("call web_add_web_task('%s')", $game_db->escape_string(json_encode($web_task))));$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query("select @out_accountid, @out_char_name");$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query("select @out_already_num");$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query("select @out_result, @out_error");$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query(sprintf("call web_do_recharge_rmb(%s, %s, @out_already_num)", $accountid, $req->rmb));$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query(sprintf("call web_get_char_info_by_char_dbid(%s, @out_accountid, @out_char_name)", $req->dbid));$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query(sprintf("call web_recharge('%s', '%s', %s, %s, %s, @out_result, @out_error)", $game_db->escape_string($req->order_id), $game_db->escape_string($gameinfo->channel), $accountid, $rmb_info->recharge_num, $give_num));$/;"	v
+db_res	game_operating_platform\api\pay\pay_process.php	/^		$db_res = $game_db->query(sprintf("select id from web_recharge_order where order_id = '%s'", $req->order_id));$/;"	v
+do_pay	game_operating_platform\api\pay\pay_process.php	/^	public static function do_pay($appid, $private_data, $order_id, $rmb) {$/;"	f
+dres	game_operating_platform\api\pay\pay_process.php	/^		$dres = self::real_do_pay($req);$/;"	v
+game_db	game_operating_platform\api\pay\pay_process.php	/^		$game_db = api_app::getGameServerDB($req->game_id, $req->server_id);$/;"	v
+gameinfo	game_operating_platform\api\pay\pay_process.php	/^		$gameinfo = game_list_config::findGameByGameID($private_data->game_id);$/;"	v
+gameinfo	game_operating_platform\api\pay\pay_process.php	/^		$gameinfo = game_list_config::findGameByGameID($req->game_id);$/;"	v
+give_num	game_operating_platform\api\pay\pay_process.php	/^			$give_num = $rmb_info->first_recharge_give_num;$/;"	v
+give_num	game_operating_platform\api\pay\pay_process.php	/^		$give_num = $rmb_info->give_num;$/;"	v
+has_error	game_operating_platform\api\pay\pay_process.php	/^			$has_error = $row['has_error'];$/;"	v
+has_error	game_operating_platform\api\pay\pay_process.php	/^		$has_error = $row['has_error'];$/;"	v
+info_string	game_operating_platform\api\pay\pay_process.php	/^		$info_string = sprintf('游戏[%s]，服[%s]的角色dbid为[%s]的玩家充值[%s]元时:', $req->game_id, $req->server_id, $req->dbid, $req->rmb);$/;"	v
+num	game_operating_platform\api\pay\pay_process.php	/^		$num = $game_db->num_rows($db_res);$/;"	v
+out_result	game_operating_platform\api\pay\pay_process.php	/^		$out_result = $row['@out_result'];$/;"	v
+pay_process	game_operating_platform\api\pay\pay_process.php	/^class pay_process$/;"	c
+private_data	game_operating_platform\api\pay\pay_process.php	/^		$private_data = json_decode(base64_decode($private_data));$/;"	v
+private_data	game_operating_platform\api\pay\pay_process.php	/^		if ($private_data == null || $private_data == "") {$/;"	v
+real_do_pay	game_operating_platform\api\pay\pay_process.php	/^	private static function real_do_pay($req) {$/;"	f
+req	game_operating_platform\api\pay\pay_process.php	/^		$req = (object)array();$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^			$res = new api_result(api_error_type::PAY_APPID_NOT_EQ_GAME_ID_FOR_APPID);$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^			$res = new api_result(api_error_type::PAY_IP_NOT_IN_WHITE_LIST);$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^			$res = new api_result(api_error_type::PAY_PRIVATE_DATA_DECODE_FROM_JSON_ERROR);$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^			$res = new api_result(api_error_type::PAY_PRIVATE_DATA_ERROR);$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^			$res = new api_result(api_error_type::PAY_SIGN_CHECK_FAILED);$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^			$res = new api_result(api_error_type::UNKNOW_GAME_ID);$/;"	v
+res	game_operating_platform\api\pay\pay_process.php	/^		$res = null;$/;"	v
+rmb_info	game_operating_platform\api\pay\pay_process.php	/^		$rmb_info = (object)$rmb_info;$/;"	v
+rmb_info	game_operating_platform\api\pay\pay_process.php	/^		$rmb_info = game_recharge_list_config::getRmbInfo((string)$req->rmb);$/;"	v
+row	game_operating_platform\api\pay\pay_process.php	/^			$row = $game_db->fetch_array($db_res);$/;"	v
+row	game_operating_platform\api\pay\pay_process.php	/^		$row = $game_db->fetch_array($db_res);$/;"	v
+web_task	game_operating_platform\api\pay\pay_process.php	/^			$web_task = (object)array();$/;"	v
+_cache_log	game_operating_platform\api\static\api_operating_log.php	/^	private static $_cache_log = array();$/;"	v
+api_operating_log	game_operating_platform\api\static\api_operating_log.php	/^class api_operating_log$/;"	c
+getLogObjByGameIDServerID	game_operating_platform\api\static\api_operating_log.php	/^	private static function getLogObjByGameIDServerID($game_id, $server_id, $logtype) {$/;"	f
+logobj	game_operating_platform\api\static\api_operating_log.php	/^		$logobj = new lx_FileLog(WEB_ROOT_DIR . '\/data\/log\/game_log\/' . $game_id . '\/' . $server_id . '\/' . $logtype . '\/');$/;"	v
+logobj	game_operating_platform\api\static\api_operating_log.php	/^		$logobj = self::getLogObjByGameIDServerID($game_id, $server_id, self::GAMELOG_TYPE_ACTIVE_USER);$/;"	v
+logobj	game_operating_platform\api\static\api_operating_log.php	/^		$logobj = self::getLogObjByGameIDServerID($game_id, $server_id, self::GAMELOG_TYPE_NEW_USER);$/;"	v
+logobj	game_operating_platform\api\static\api_operating_log.php	/^		$logobj = self::getLogObjByGameIDServerID($game_id, $server_id, self::GAMELOG_TYPE_PAY);$/;"	v
+name	game_operating_platform\api\static\api_operating_log.php	/^		$name = $game_id . $server_id . $logtype;$/;"	v
+onNewUser	game_operating_platform\api\static\api_operating_log.php	/^	public static function onNewUser($account_id, $channel, $game_id, $server_id) {$/;"	f
+onUserEnterGame	game_operating_platform\api\static\api_operating_log.php	/^	public static function onUserEnterGame($account_id, $channel, $game_id, $server_id) {$/;"	f
+onUserPay	game_operating_platform\api\static\api_operating_log.php	/^	public static function onUserPay($account_id, $channel, $game_id, $server_id, $dbid, $rmb) {$/;"	f
+__construct	game_operating_platform\api\struct\api_result.php	/^	function __construct($code, $use_error_map = true) {$/;"	f
+__error_map	game_operating_platform\api\struct\api_result.php	/^	public static $__error_map = array($/;"	v
+__tostring	game_operating_platform\api\struct\api_result.php	/^	function __tostring() {$/;"	f
+api_error_type	game_operating_platform\api\struct\api_result.php	/^class api_error_type$/;"	c
+api_result	game_operating_platform\api\struct\api_result.php	/^class api_result$/;"	c
+error_code	game_operating_platform\api\struct\api_result.php	/^		$this->error_code = $code;$/;"	v
+error_code	game_operating_platform\api\struct\api_result.php	/^	public $error_code;$/;"	v
+error_msg	game_operating_platform\api\struct\api_result.php	/^				$this->error_msg = api_error_type::$__error_map[$code];$/;"	v
+error_msg	game_operating_platform\api\struct\api_result.php	/^				$this->error_msg = null;$/;"	v
+error_msg	game_operating_platform\api\struct\api_result.php	/^	public $error_msg;$/;"	v
+toString	game_operating_platform\api\struct\api_result.php	/^	public function toString() {$/;"	f
+use_error_map	game_operating_platform\api\struct\api_result.php	/^	function __construct($code, $use_error_map = true) {$/;"	v
+user_base	game_operating_platform\api\user\user_base.php	/^class user_base$/;"	c
+_user	game_operating_platform\api\user\user_center.php	/^	private static $_user = null;$/;"	v
+account_guid	game_operating_platform\api\user\user_center.php	/^	public $account_guid = null;$/;"	v
+account_id	game_operating_platform\api\user\user_center.php	/^	public $account_id = null;$/;"	v
+channel	game_operating_platform\api\user\user_center.php	/^	public $channel = null;$/;"	v
+game_id	game_operating_platform\api\user\user_center.php	/^	public $game_id = null;$/;"	v
+getUser	game_operating_platform\api\user\user_center.php	/^	public static function getUser() {$/;"	f
+gm	game_operating_platform\api\user\user_center.php	/^	public $gm = null;$/;"	v
+password	game_operating_platform\api\user\user_center.php	/^	public $password = null;$/;"	v
+salt	game_operating_platform\api\user\user_center.php	/^	public $salt = null;$/;"	v
+server_id	game_operating_platform\api\user\user_center.php	/^	public $server_id = null;$/;"	v
+setUser	game_operating_platform\api\user\user_center.php	/^	public static function setUser($u) {$/;"	f
+updateUser	game_operating_platform\api\user\user_center.php	/^	public static function updateUser() {$/;"	f
+user_center	game_operating_platform\api\user\user_center.php	/^class user_center$/;"	c
+username	game_operating_platform\api\user\user_center.php	/^	public $username = null;$/;"	v
+change_password	game_operating_platform\api\user\user_change_info.php	/^	public function change_password($arg) {$/;"	f
+change_user	game_operating_platform\api\user\user_change_info.php	/^	public function change_user($arg) {$/;"	f
+change_user_pwd	game_operating_platform\api\user\user_change_info.php	/^	public function change_user_pwd($arg) {$/;"	f
+db	game_operating_platform\api\user\user_change_info.php	/^		$db = api_app::getDB();$/;"	v
+db_res	game_operating_platform\api\user\user_change_info.php	/^		$db_res = $db->query(sprintf("select * from account_base where username = '%s'", $db->escape_string($new_username)));$/;"	v
+db_res	game_operating_platform\api\user\user_change_info.php	/^		$db_res = $db->query(sprintf("update account_base set password = '%s', salt = '%s' where account_id = %s;", $db->escape_string($pwd_value), $db->escape_string($user->salt), $user->account_id));$/;"	v
+db_res	game_operating_platform\api\user\user_change_info.php	/^		$db_res = $db->query(sprintf("update account_base set username = '%s' where account_id = %s;", $db->escape_string($new_username), $user->account_id));$/;"	v
+db_res	game_operating_platform\api\user\user_change_info.php	/^		$db_res = $db->query(sprintf("update account_base set username = '%s', password = '%s', salt = '%s' where account_id = %s;", $db->escape_string($new_username), $db->escape_string($pwd_value), $db->escape_string($user->salt), $user->account_id));$/;"	v
+new_password	game_operating_platform\api\user\user_change_info.php	/^		$new_password = $arg->new_password;$/;"	v
+new_password	game_operating_platform\api\user\user_change_info.php	/^		if (!is_string($new_password) || $new_password == "" || strlen($new_password) > 48) {$/;"	v
+new_username	game_operating_platform\api\user\user_change_info.php	/^		$new_username = $arg->new_username;$/;"	v
+new_username	game_operating_platform\api\user\user_change_info.php	/^		$new_username = strtolower($new_username);$/;"	v
+new_username	game_operating_platform\api\user\user_change_info.php	/^		if (!is_string($new_username) || $new_username == "" || strlen($new_username) > 48) {$/;"	v
+pwd_value	game_operating_platform\api\user\user_change_info.php	/^		$pwd_value = md5($new_password . $user->salt);$/;"	v
+user	game_operating_platform\api\user\user_change_info.php	/^		$user = user_center::getUser();$/;"	v
+user_change_info	game_operating_platform\api\user\user_change_info.php	/^class user_change_info extends user_base$/;"	c
+common_check	game_operating_platform\api\user\user_game.php	/^	private function common_check($user) {$/;"	f
+db_res	game_operating_platform\api\user\user_game.php	/^		$db_res = $game_db->query("select @out_new_user");$/;"	v
+db_res	game_operating_platform\api\user\user_game.php	/^		$db_res = $game_db->query(sprintf("call web_login(%s, '%s', '%s', '%s', @out_new_user)", $user->account_id, $game_db->escape_string($user->channel), $game_db->escape_string($str_M), $game_db->escape_string(api_app::getRequesterIP())));$/;"	v
+enter_game	game_operating_platform\api\user\user_game.php	/^	public function enter_game($arg) {$/;"	f
+game_db	game_operating_platform\api\user\user_game.php	/^		$game_db = api_app::getGameServerDB($user->game_id, $server_id);$/;"	v
+get_server_list	game_operating_platform\api\user\user_game.php	/^	public function get_server_list($arg) {$/;"	f
+has_error	game_operating_platform\api\user\user_game.php	/^		$has_error = $row['has_error'];$/;"	v
+info	game_operating_platform\api\user\user_game.php	/^		$info = game_list_config::findGameByGameID($user->game_id);$/;"	v
+info	game_operating_platform\api\user\user_game.php	/^		$info = game_server_list_config::getServerInfo($server_id);$/;"	v
+new_user	game_operating_platform\api\user\user_game.php	/^		$new_user = $row['@out_new_user'];$/;"	v
+random_a	game_operating_platform\api\user\user_game.php	/^		$random_a = $arg->random_a;$/;"	v
+res	game_operating_platform\api\user\user_game.php	/^		$res = $this->common_check($user);$/;"	v
+response_data	game_operating_platform\api\user\user_game.php	/^		$response_data = new api_result(api_error_type::SUCCEED);$/;"	v
+row	game_operating_platform\api\user\user_game.php	/^		$row = $game_db->fetch_array($db_res);$/;"	v
+server_id	game_operating_platform\api\user\user_game.php	/^		$server_id = $arg->server_id;$/;"	v
+str_B	game_operating_platform\api\user\user_game.php	/^		$str_B = make_rand_string(32);$/;"	v
+str_M	game_operating_platform\api\user\user_game.php	/^		$str_M = md5($random_a . $user->account_guid . $str_B);$/;"	v
+user	game_operating_platform\api\user\user_game.php	/^		$user = user_center::getUser();$/;"	v
+user_game	game_operating_platform\api\user\user_game.php	/^class user_game extends user_base$/;"	c
+can_use	game_operating_platform\api\user\user_gift.php	/^		$can_use = (int)$row['@out_canuse'];$/;"	v
+db_res	game_operating_platform\api\user\user_gift.php	/^		$db_res = $game_db->query("select @out_result");$/;"	v
+db_res	game_operating_platform\api\user\user_gift.php	/^		$db_res = $game_db->query(sprintf("call web_add_web_task('%s')", $game_db->escape_string(json_encode($web_task))));$/;"	v
+db_res	game_operating_platform\api\user\user_gift.php	/^		$db_res = $game_db->query(sprintf("call web_try_get_gift(%s, %s, %s, %s, @out_result)", $user->account_id, $game_db->escape_string((string)$arg->char_dbid), $gift_config_id, $max_get_num));$/;"	v
+db_res	game_operating_platform\api\user\user_gift.php	/^		$db_res = $game_gift_db->query("select @out_canuse, @out_gift_config_id, @out_max_get_num");$/;"	v
+db_res	game_operating_platform\api\user\user_gift.php	/^		$db_res = $game_gift_db->query(sprintf("call check_gift_code_can_use('%s', '%s', @out_canuse, @out_gift_config_id, @out_max_get_num)", $game_gift_db->escape_string($arg->gift_code), $game_gift_db->escape_string((string)$user->server_id)));$/;"	v
+db_res	game_operating_platform\api\user\user_gift.php	/^		$db_res = $game_gift_db->query(sprintf("call use_gift_code('%s')", $game_gift_db->escape_string($arg->gift_code)));$/;"	v
+game_db	game_operating_platform\api\user\user_gift.php	/^		$game_db = api_app::getGameServerDB($user->game_id, $user->server_id);$/;"	v
+game_gift_db	game_operating_platform\api\user\user_gift.php	/^		$game_gift_db = api_app::getGameGiftDB($user->game_id);$/;"	v
+gift_config_id	game_operating_platform\api\user\user_gift.php	/^		$gift_config_id = $row['@out_gift_config_id'];$/;"	v
+has_error	game_operating_platform\api\user\user_gift.php	/^		$has_error = $row['has_error'];$/;"	v
+info	game_operating_platform\api\user\user_gift.php	/^		$info = game_list_config::findGameByGameID($user->game_id);$/;"	v
+info	game_operating_platform\api\user\user_gift.php	/^		$info = game_server_list_config::getServerInfo($user->server_id);$/;"	v
+max_get_num	game_operating_platform\api\user\user_gift.php	/^		$max_get_num = $row['@out_max_get_num'];$/;"	v
+result	game_operating_platform\api\user\user_gift.php	/^		$result = $row['@out_result'];$/;"	v
+row	game_operating_platform\api\user\user_gift.php	/^		$row = $game_db->fetch_array($db_res);$/;"	v
+row	game_operating_platform\api\user\user_gift.php	/^		$row = $game_gift_db->fetch_array($db_res);$/;"	v
+try_use	game_operating_platform\api\user\user_gift.php	/^	public function try_use($arg) {$/;"	f
+user	game_operating_platform\api\user\user_gift.php	/^		$user = user_center::getUser();$/;"	v
+user_gift	game_operating_platform\api\user\user_gift.php	/^class user_gift extends user_base$/;"	c
+web_task	game_operating_platform\api\user\user_gift.php	/^		$web_task = (object)array();$/;"	v
+db	game_operating_platform\api\user\user_login.php	/^		$db = api_app::getDB();$/;"	v
+db_res	game_operating_platform\api\user\user_login.php	/^		$db_res = $db->query(sprintf("select * from account_base where username = '%s'", $db->escape_string($user->username)));$/;"	v
+do_login	game_operating_platform\api\user\user_login.php	/^	protected function do_login($user) {$/;"	f
+info	game_operating_platform\api\user\user_login.php	/^		$info = game_list_config::findGameByGameID($user->game_id);$/;"	v
+normal_login	game_operating_platform\api\user\user_login.php	/^	public function normal_login($arg) {$/;"	f
+pwd	game_operating_platform\api\user\user_login.php	/^		$pwd = $row['password'];$/;"	v
+res	game_operating_platform\api\user\user_login.php	/^		$res = $this->do_login($user);$/;"	v
+res_pwd	game_operating_platform\api\user\user_login.php	/^		$res_pwd = md5($user->password . $user->salt);$/;"	v
+row	game_operating_platform\api\user\user_login.php	/^		$row = $db->fetch_array($db_res);$/;"	v
+user	game_operating_platform\api\user\user_login.php	/^		$user = new user_center();$/;"	v
+user	game_operating_platform\api\user\user_login.php	/^		$user = user_center::getUser();$/;"	v
+user_login	game_operating_platform\api\user\user_login.php	/^class user_login extends user_base$/;"	c
+already_num	game_operating_platform\api\user\user_recharge.php	/^		$already_num = $row['@out_already_num'];$/;"	v
+db_res	game_operating_platform\api\user\user_recharge.php	/^			$db_res = $game_db->query("select @out_result, @out_error");$/;"	v
+db_res	game_operating_platform\api\user\user_recharge.php	/^			$db_res = $game_db->query(sprintf("call web_add_web_task('%s')", $game_db->escape_string(json_encode($web_task))));$/;"	v
+db_res	game_operating_platform\api\user\user_recharge.php	/^			$db_res = $game_db->query(sprintf("call web_recharge('%s', '%s', %s, %s, %s, @out_result, @out_error)", $game_db->escape_string(create_guid()), $game_db->escape_string($user->channel), $user->account_id, $rmb_info->recharge_num, $give_num));$/;"	v
+db_res	game_operating_platform\api\user\user_recharge.php	/^		$db_res = $game_db->query("select @out_already_num");$/;"	v
+db_res	game_operating_platform\api\user\user_recharge.php	/^		$db_res = $game_db->query(sprintf("call web_do_recharge_rmb(%s, %s, @out_already_num)", $user->account_id, $arg->rmb));$/;"	v
+do_recharge	game_operating_platform\api\user\user_recharge.php	/^	public function do_recharge($arg) {$/;"	f
+game_db	game_operating_platform\api\user\user_recharge.php	/^		$game_db = api_app::getGameServerDB($user->game_id, $user->server_id);$/;"	v
+gameinfo	game_operating_platform\api\user\user_recharge.php	/^		$gameinfo = game_list_config::findGameByGameID($user->game_id);$/;"	v
+give_num	game_operating_platform\api\user\user_recharge.php	/^			$give_num = $rmb_info->first_recharge_give_num;$/;"	v
+give_num	game_operating_platform\api\user\user_recharge.php	/^		$give_num = $rmb_info->give_num;$/;"	v
+has_error	game_operating_platform\api\user\user_recharge.php	/^			$has_error = $row['has_error'];$/;"	v
+has_error	game_operating_platform\api\user\user_recharge.php	/^		$has_error = $row['has_error'];$/;"	v
+rmb_info	game_operating_platform\api\user\user_recharge.php	/^		$rmb_info = (object)$rmb_info;$/;"	v
+rmb_info	game_operating_platform\api\user\user_recharge.php	/^		$rmb_info = game_recharge_list_config::getRmbInfo((string)$arg->rmb);$/;"	v
+row	game_operating_platform\api\user\user_recharge.php	/^			$row = $game_db->fetch_array($db_res);$/;"	v
+row	game_operating_platform\api\user\user_recharge.php	/^		$row = $game_db->fetch_array($db_res);$/;"	v
+user	game_operating_platform\api\user\user_recharge.php	/^		$user = user_center::getUser();$/;"	v
+user_recharge	game_operating_platform\api\user\user_recharge.php	/^class user_recharge extends user_base$/;"	c
+web_task	game_operating_platform\api\user\user_recharge.php	/^			$web_task = (object)array();$/;"	v
+db	game_operating_platform\api\user\user_register.php	/^		$db = api_app::getDB();$/;"	v
+db_res	game_operating_platform\api\user\user_register.php	/^			$db_res = $db->query("select @out_account_id, @out_result");$/;"	v
+db_res	game_operating_platform\api\user\user_register.php	/^			$db_res = $db->query(sprintf("call create_new_account('%s', '%s', '%s', '%s', '%s', @out_account_id, @out_result)", $db->escape_string($guid), $db->escape_string($user->username), $db->escape_string($pwd_value), $db->escape_string($salt), $db->escape_string(api_app::getRequesterIP())));$/;"	v
+db_res	game_operating_platform\api\user\user_register.php	/^		$db_res = $db->query(sprintf("select max(account_id) from account_base"));$/;"	v
+guid	game_operating_platform\api\user\user_register.php	/^			$guid = create_guid();$/;"	v
+has_error	game_operating_platform\api\user\user_register.php	/^			$has_error = $row['has_error'];$/;"	v
+info	game_operating_platform\api\user\user_register.php	/^		$info = game_list_config::findGameByGameID($user->game_id);$/;"	v
+max_account_id	game_operating_platform\api\user\user_register.php	/^		$max_account_id = $max_account_id + 1;$/;"	v
+max_account_id	game_operating_platform\api\user\user_register.php	/^		$max_account_id = $row["max(account_id)"];$/;"	v
+normal_register	game_operating_platform\api\user\user_register.php	/^	public function normal_register($arg) {$/;"	f
+out_account_id	game_operating_platform\api\user\user_register.php	/^			$out_account_id = $row['@out_account_id'];$/;"	v
+pwd_value	game_operating_platform\api\user\user_register.php	/^		$pwd_value = md5($user->password . $salt);$/;"	v
+response_data	game_operating_platform\api\user\user_register.php	/^		$response_data = new api_result(api_error_type::SUCCEED);$/;"	v
+result	game_operating_platform\api\user\user_register.php	/^			$result = $row['@out_result'];$/;"	v
+row	game_operating_platform\api\user\user_register.php	/^			$row = $db->fetch_array($db_res);$/;"	v
+row	game_operating_platform\api\user\user_register.php	/^		$row = $db->fetch_array($db_res);$/;"	v
+salt	game_operating_platform\api\user\user_register.php	/^		$salt = make_rand_string(32);$/;"	v
+tourists_register	game_operating_platform\api\user\user_register.php	/^	public function tourists_register($arg) {$/;"	f
+user	game_operating_platform\api\user\user_register.php	/^		$user = new user_center();$/;"	v
+user	game_operating_platform\api\user\user_register.php	/^		$user = user_center::getUser();$/;"	v
+user_register	game_operating_platform\api\user\user_register.php	/^class user_register extends user_base$/;"	c
+username	game_operating_platform\api\user\user_register.php	/^				$username = substr($username, 0, 47);$/;"	v
+username	game_operating_platform\api\user\user_register.php	/^			$username = 'yk_' . make_rand_string(8, false) . $max_account_id;$/;"	v
+__construct	game_operating_platform\contrib\class\lx_FileLog.php	/^	function __construct($dirpath, $split_logtype = self::EVERY_HOUR_FILE, $split_dirtype = self::SPLIT_SUBDIR_DAY) {$/;"	f
+dirpath	game_operating_platform\contrib\class\lx_FileLog.php	/^		$this->dirpath = $dirpath;$/;"	v
+dirpath	game_operating_platform\contrib\class\lx_FileLog.php	/^	private $dirpath;$/;"	v
+endchar	game_operating_platform\contrib\class\lx_FileLog.php	/^		$endchar = $dirpath[strlen($dirpath) - 1];$/;"	v
+filename	game_operating_platform\contrib\class\lx_FileLog.php	/^			$filename = date("H");$/;"	v
+filename	game_operating_platform\contrib\class\lx_FileLog.php	/^			$filename = date("Y-m-d");$/;"	v
+filename	game_operating_platform\contrib\class\lx_FileLog.php	/^		$filename = "";$/;"	v
+filepath	game_operating_platform\contrib\class\lx_FileLog.php	/^		$filepath = $this->dirpath . $subdir . $filename . ".log";$/;"	v
+lx_FileLog	game_operating_platform\contrib\class\lx_FileLog.php	/^class lx_FileLog$/;"	c
+requestInformation	game_operating_platform\contrib\class\lx_FileLog.php	/^		$requestInformation = date("[Y-m-d H:i:s] ") . $logstr . "\\n";$/;"	v
+split_dir_type	game_operating_platform\contrib\class\lx_FileLog.php	/^		$this->split_dir_type = $split_dirtype;$/;"	v
+split_dir_type	game_operating_platform\contrib\class\lx_FileLog.php	/^	private $split_dir_type;$/;"	v
+split_log_type	game_operating_platform\contrib\class\lx_FileLog.php	/^		$this->split_log_type = $split_logtype;$/;"	v
+split_log_type	game_operating_platform\contrib\class\lx_FileLog.php	/^	private $split_log_type;$/;"	v
+split_logtype	game_operating_platform\contrib\class\lx_FileLog.php	/^	function __construct($dirpath, $split_logtype = self::EVERY_HOUR_FILE, $split_dirtype = self::SPLIT_SUBDIR_DAY) {$/;"	v
+subdir	game_operating_platform\contrib\class\lx_FileLog.php	/^			$subdir = date("Y-m") . "\/";$/;"	v
+subdir	game_operating_platform\contrib\class\lx_FileLog.php	/^			$subdir = date("Y-m-d") . "\/";$/;"	v
+subdir	game_operating_platform\contrib\class\lx_FileLog.php	/^		$subdir = "";$/;"	v
+writeToFile	game_operating_platform\contrib\class\lx_FileLog.php	/^	function writeToFile($logstr) {$/;"	f
+__construct	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function __construct() {$/;"	f
+ch	game_operating_platform\contrib\class\lx_HttpLoader.php	/^			$ch = curl_init();$/;"	v
+ch	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$ch = curl_init();$/;"	v
+combineParam	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function combineParam($paramarr) {$/;"	f
+combineURL	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function combineURL($baseURL, $paramarr) {$/;"	f
+combined	game_operating_platform\contrib\class\lx_HttpLoader.php	/^			$combined = $this->combineURL($url, $keysArr);$/;"	v
+combined	game_operating_platform\contrib\class\lx_HttpLoader.php	/^			$combined = $url;$/;"	v
+combined	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$combined = $baseURL . "?";$/;"	v
+get	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function get($url, $keysArr=NULL) {$/;"	f
+get_contents	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function get_contents($url) {$/;"	f
+get_httpcode	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function get_httpcode() {$/;"	f
+has_error	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function has_error() {$/;"	f
+httpcode	game_operating_platform\contrib\class\lx_HttpLoader.php	/^			$this->httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);$/;"	v
+httpcode	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$this->httpcode = 200;$/;"	v
+httpcode	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$this->httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);$/;"	v
+httpcode	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	private $httpcode;$/;"	v
+key	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		foreach ($paramarr as $key => $val) {$/;"	v
+keyStr	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$keyStr = $this->combineParam($paramarr);$/;"	v
+keyStr	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$keyStr = implode("&", $valueArr);$/;"	v
+keysArr	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function get($url, $keysArr=NULL) {$/;"	v
+lx_HttpLoader	game_operating_platform\contrib\class\lx_HttpLoader.php	/^class lx_HttpLoader$/;"	c
+post	game_operating_platform\contrib\class\lx_HttpLoader.php	/^	public function post($url, $keysArr) {$/;"	f
+response	game_operating_platform\contrib\class\lx_HttpLoader.php	/^			$response = curl_exec($ch);$/;"	v
+response	game_operating_platform\contrib\class\lx_HttpLoader.php	/^			$response = file_get_contents($url);$/;"	v
+ret	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$ret = curl_exec($ch);$/;"	v
+valueArr	game_operating_platform\contrib\class\lx_HttpLoader.php	/^		$valueArr = array();$/;"	v
+__construct	game_operating_platform\contrib\class\lx_Mysql.php	/^	function __construct() {$/;"	f
+arr	game_operating_platform\contrib\class\lx_Mysql.php	/^		$arr = explode(':', $dbhost);$/;"	v
+character	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->character = $character;$/;"	v
+character	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $character;			\/\/字符集$/;"	v
+character	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function open($dbhost, $dbname, $username, $password, $character = 'utf8', $/;"	v
+close	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function close() {$/;"	f
+code	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function halt($message = '', $code = 0, $sql = '') {$/;"	v
+connect_error	game_operating_platform\contrib\class\lx_Mysql.php	/^			$this->connect_error = true;$/;"	v
+connect_error	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->connect_error = false;$/;"	v
+connect_error	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $connect_error;		\/\/链接时错误？$/;"	v
+connect_overtime	game_operating_platform\contrib\class\lx_Mysql.php	/^							$connect_overtime = 500, $overtime = 720000) {$/;"	v
+connect_overtime	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->connect_overtime = $connect_overtime;$/;"	v
+connect_overtime	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $connect_overtime;	\/\/指定连接时最长多少毫秒认为连接超时$/;"	v
+dbcon	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->dbcon = mysqli_init();$/;"	v
+dbcon	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->dbcon = null;$/;"	v
+dbcon	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $dbcon;				\/\/数据库句柄$/;"	v
+dbip	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->dbip = $arr[0];$/;"	v
+dbip	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $dbip;				\/\/数据库ip$/;"	v
+dbname	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->dbname = $dbname;$/;"	v
+dbname	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $dbname;			\/\/数据库名$/;"	v
+dbport	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->dbport = $port;$/;"	v
+dbport	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $dbport;			\/\/数据库端口$/;"	v
+errno	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function errno() {$/;"	f
+error	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function error() {$/;"	f
+escape_string	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function escape_string($str) {$/;"	f
+fetch_array	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function fetch_array($queryres) {$/;"	f
+free_result	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function free_result() {$/;"	f
+halt	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function halt($message = '', $code = 0, $sql = '') {$/;"	f
+last_res	game_operating_platform\contrib\class\lx_Mysql.php	/^				$this->last_res = null;$/;"	v
+last_res	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->last_res = mysqli_query($this->dbcon, $sql);$/;"	v
+last_res	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->last_res = null;$/;"	v
+last_res	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $last_res;			\/\/上次的结果$/;"	v
+logobj	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->logobj = $logobj;$/;"	v
+logobj	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->logobj = null;$/;"	v
+logobj	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $logobj;			\/\/日志对象$/;"	v
+lx_Mysql	game_operating_platform\contrib\class\lx_Mysql.php	/^class lx_Mysql$/;"	c
+num_rows	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function num_rows($queryres) {$/;"	f
+open	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function open($dbhost, $dbname, $username, $password, $character = 'utf8', $/;"	f
+overtime	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->overtime = $overtime;$/;"	v
+overtime	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $overtime;			\/\/指定最长多少秒不执行sql语句就断开连接$/;"	v
+parse_ip_port	game_operating_platform\contrib\class\lx_Mysql.php	/^	private function parse_ip_port($dbhost) {$/;"	f
+password	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->password = $password;$/;"	v
+password	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $password;			\/\/密码$/;"	v
+port	game_operating_platform\contrib\class\lx_Mysql.php	/^			$port = (int)$arr[1];$/;"	v
+port	game_operating_platform\contrib\class\lx_Mysql.php	/^		$port = 3306;$/;"	v
+query	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function query($sql) {$/;"	f
+real_open	game_operating_platform\contrib\class\lx_Mysql.php	/^	private function real_open() {$/;"	f
+result	game_operating_platform\contrib\class\lx_Mysql.php	/^			$result = mysqli_store_result($this->dbcon);$/;"	v
+select_db	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function select_db($dbname) {$/;"	f
+setLogObj	game_operating_platform\contrib\class\lx_Mysql.php	/^	public function setLogObj($logobj) {$/;"	f
+test_host_error	game_operating_platform\contrib\class\lx_Mysql.php	/^			$this->test_host_error = true;$/;"	v
+test_host_error	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->test_host_error = false;$/;"	v
+test_host_error	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $test_host_error;	\/\/测试主机错误？(无法连上)$/;"	v
+username	game_operating_platform\contrib\class\lx_Mysql.php	/^		$this->username = $username;$/;"	v
+username	game_operating_platform\contrib\class\lx_Mysql.php	/^	private $username;			\/\/用户名$/;"	v
+_coreClasses	game_operating_platform\contrib\contrib_core.php	/^	private static $_coreClasses = array($/;"	v
+autoload	game_operating_platform\contrib\contrib_core.php	/^	public static function autoload($className) {$/;"	f
+classMap	game_operating_platform\contrib\contrib_core.php	/^	private static $classMap = array();$/;"	v
+lx_base	game_operating_platform\contrib\contrib_core.php	/^class lx_base$/;"	c
+name	game_operating_platform\contrib\contrib_core.php	/^		foreach ($class_arr as $name => $path) {$/;"	v
+register_class	game_operating_platform\contrib\contrib_core.php	/^	public static function register_class($class_arr) {$/;"	f
+CONTRIB_ROOT	game_operating_platform\contrib\contrib_core_config.php	/^define('CONTRIB_ROOT', dirname(__FILE__));$/;"	d
+WEB_ROOT_DIR	game_operating_platform\contrib\contrib_core_config.php	/^define('WEB_ROOT_DIR', $web_root_path);$/;"	d
+idx	game_operating_platform\contrib\contrib_core_config.php	/^$idx = strrpos($web_root_path, DIRECTORY_SEPARATOR);$/;"	v
+web_root_path	game_operating_platform\contrib\contrib_core_config.php	/^	$web_root_path = substr($web_root_path, 0, $idx + 1);$/;"	v
+web_root_path	game_operating_platform\contrib\contrib_core_config.php	/^$web_root_path = dirname(__FILE__);$/;"	v
+all_char	game_operating_platform\contrib\function\function_core.php	/^function make_rand_string($length = 16, $all_char = true) {$/;"	v
+c	game_operating_platform\contrib\function\function_core.php	/^		$c = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";$/;"	v
+c	game_operating_platform\contrib\function\function_core.php	/^		$c = "abcdefghijklmnopqrstuvwxyz0123456789";$/;"	v
+c_len	game_operating_platform\contrib\function\function_core.php	/^	$c_len = strlen($c);$/;"	v
+dirpath	game_operating_platform\contrib\function\function_core.php	/^	$dirpath = str_replace(array('\/', '\\\\', '\/\/', '\\\\\\\\'), DIRECTORY_SEPARATOR, $dirpath);$/;"	v
+dirpath	game_operating_platform\contrib\function\function_core.php	/^	$dirpath = str_replace(strrchr($dirpath, DIRECTORY_SEPARATOR), "", $dirpath) . DIRECTORY_SEPARATOR;$/;"	v
+errorHandler	game_operating_platform\contrib\function\function_core.php	/^function errorHandler($errno, $errstr, $errfile, $errline, $errcontext) {$/;"	f
+errorinfo	game_operating_platform\contrib\function\function_core.php	/^	$errorinfo = date("Y-m-d H:i:s ") . "[errorHandler] " .$/;"	v
+filename	game_operating_platform\contrib\function\function_core.php	/^	$filename = WEB_ROOT_DIR . "\/data\/error\/phperror\/errorhandler_" . date("Y_m_d") . ".log";$/;"	v
+getgpc	game_operating_platform\contrib\function\function_core.php	/^function getgpc($k, $type = 'GP') {$/;"	f
+high	game_operating_platform\contrib\function\function_core.php	/^	$high = floor($value \/ doubleval(0x100000000));$/;"	v
+low	game_operating_platform\contrib\function\function_core.php	/^	$low = $value - $high * doubleval(0x100000000);$/;"	v
+makeDir	game_operating_platform\contrib\function\function_core.php	/^function makeDir($dirpath, $mode = 0777) {$/;"	f
+make_rand_string	game_operating_platform\contrib\function\function_core.php	/^function make_rand_string($length = 16, $all_char = true) {$/;"	f
+makeint64by32	game_operating_platform\contrib\function\function_core.php	/^function makeint64by32($high, $low) {$/;"	f
+mode	game_operating_platform\contrib\function\function_core.php	/^function makeDir($dirpath, $mode = 0777) {$/;"	v
+parseint64	game_operating_platform\contrib\function\function_core.php	/^function parseint64($value) {$/;"	f
+res	game_operating_platform\contrib\function\function_core.php	/^	$res = mkdir($dirpath, $mode, true);$/;"	v
+showError	game_operating_platform\contrib\function\function_core.php	/^function showError($errorstr, $filename) {$/;"	f
+str	game_operating_platform\contrib\function\function_core.php	/^	$str = "";$/;"	v
+type	game_operating_platform\contrib\function\function_core.php	/^	$type = strtoupper($type);$/;"	v
+type	game_operating_platform\contrib\function\function_core.php	/^function getgpc($k, $type = 'GP') {$/;"	v
+value	game_operating_platform\contrib\function\function_core.php	/^	$value = doubleval($high) * doubleval(0x100000000);$/;"	v
+var	game_operating_platform\contrib\function\function_core.php	/^			$var = &$_GET;$/;"	v
+var	game_operating_platform\contrib\function\function_core.php	/^			$var = &$_POST;$/;"	v
+var	game_operating_platform\contrib\function\function_core.php	/^	case 'C': $var = &$_COOKIE; break;$/;"	v
+var	game_operating_platform\contrib\function\function_core.php	/^	case 'G': $var = &$_GET; break;$/;"	v
+var	game_operating_platform\contrib\function\function_core.php	/^	case 'P': $var = &$_POST; break;$/;"	v
+_create_guid_	game_operating_platform\contrib\function\guid.php	/^function _create_guid_() {$/;"	f
+charid	game_operating_platform\contrib\function\guid.php	/^	$charid = strtoupper(md5(uniqid(mt_rand(), true)));$/;"	v
+create_guid	game_operating_platform\contrib\function\guid.php	/^function create_guid() {$/;"	f
+hyphen	game_operating_platform\contrib\function\guid.php	/^	$hyphen = chr(45);\/\/ "-"$/;"	v
+uuid	game_operating_platform\contrib\function\guid.php	/^	$uuid = chr(123)\/\/ "{"$/;"	v
+event_num	game_operating_platform\contrib\function\network.php	/^		$event_num = socket_select($read, $write, $except, $sec, $usec);$/;"	v
+event_num	game_operating_platform\contrib\function\network.php	/^	$event_num = 0;$/;"	v
+except	game_operating_platform\contrib\function\network.php	/^		$except = null;$/;"	v
+read	game_operating_platform\contrib\function\network.php	/^		$read = null;$/;"	v
+sec	game_operating_platform\contrib\function\network.php	/^		$sec = (int)($time_out \/ 1000);$/;"	v
+sock	game_operating_platform\contrib\function\network.php	/^	$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);$/;"	v
+test_host_listen_the_port	game_operating_platform\contrib\function\network.php	/^function test_host_listen_the_port($host, $port, $time_out = 500) {$/;"	f
+time_out	game_operating_platform\contrib\function\network.php	/^		$time_out = 0;$/;"	v
+time_out	game_operating_platform\contrib\function\network.php	/^function test_host_listen_the_port($host, $port, $time_out = 500) {$/;"	v
+usec	game_operating_platform\contrib\function\network.php	/^		$usec = $time_out % 1000 * 1000;$/;"	v
+write	game_operating_platform\contrib\function\network.php	/^		$write = array($sock);$/;"	v
+$.md5	game_operating_platform\static\js\jquery.md5.js	/^    $.md5 = function (string, key, raw) {$/;"	f
+binl2rstr	game_operating_platform\static\js\jquery.md5.js	/^    function binl2rstr(input) {$/;"	f
+binl_md5	game_operating_platform\static\js\jquery.md5.js	/^    function binl_md5(x, len) {$/;"	f
+bit_rol	game_operating_platform\static\js\jquery.md5.js	/^    function bit_rol(num, cnt) {$/;"	f
+hex_hmac_md5	game_operating_platform\static\js\jquery.md5.js	/^    function hex_hmac_md5(k, d) {$/;"	f
+hex_md5	game_operating_platform\static\js\jquery.md5.js	/^    function hex_md5(s) {$/;"	f
+md5_cmn	game_operating_platform\static\js\jquery.md5.js	/^    function md5_cmn(q, a, b, x, s, t) {$/;"	f
+md5_ff	game_operating_platform\static\js\jquery.md5.js	/^    function md5_ff(a, b, c, d, x, s, t) {$/;"	f
+md5_gg	game_operating_platform\static\js\jquery.md5.js	/^    function md5_gg(a, b, c, d, x, s, t) {$/;"	f
+md5_hh	game_operating_platform\static\js\jquery.md5.js	/^    function md5_hh(a, b, c, d, x, s, t) {$/;"	f
+md5_ii	game_operating_platform\static\js\jquery.md5.js	/^    function md5_ii(a, b, c, d, x, s, t) {$/;"	f
+raw_hmac_md5	game_operating_platform\static\js\jquery.md5.js	/^    function raw_hmac_md5(k, d) {$/;"	f
+raw_md5	game_operating_platform\static\js\jquery.md5.js	/^    function raw_md5(s) {$/;"	f
+rstr2binl	game_operating_platform\static\js\jquery.md5.js	/^    function rstr2binl(input) {$/;"	f
+rstr2hex	game_operating_platform\static\js\jquery.md5.js	/^    function rstr2hex(input) {$/;"	f
+rstr_hmac_md5	game_operating_platform\static\js\jquery.md5.js	/^    function rstr_hmac_md5(key, data) {$/;"	f
+rstr_md5	game_operating_platform\static\js\jquery.md5.js	/^    function rstr_md5(s) {$/;"	f
+safe_add	game_operating_platform\static\js\jquery.md5.js	/^    function safe_add(x, y) {$/;"	f
+str2rstr_utf8	game_operating_platform\static\js\jquery.md5.js	/^    function str2rstr_utf8(input) {$/;"	f
+lx	game_operating_platform\static\js\lx_http.js	/^var lx = lx || window['lx'];$/;"	v
+lx.create_xml_http_obj	game_operating_platform\static\js\lx_http.js	/^lx.create_xml_http_obj = function() {$/;"	f
+lx.http_post	game_operating_platform\static\js\lx_http.js	/^lx.http_post = function(url, data, finish_func, error_func) {$/;"	f
+xmlhttp.onreadystatechange	game_operating_platform\static\js\lx_http.js	/^	xmlhttp.onreadystatechange = function() {$/;"	f
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

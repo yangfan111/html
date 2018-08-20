@@ -88,13 +88,14 @@ function showError($errorstr, $filename) {
  * @param $mode 权限
  * @return 若创建成功，返回true，否则返回创建失败的目录路径
  */
-function makeDir($dirpath, $mode = 0755) {
+function makeDir($dirpath, $mode = 0777) {
 	$dirpath = str_replace(array('/', '\\', '//', '\\\\'), DIRECTORY_SEPARATOR, $dirpath);
 	$dirpath = str_replace(strrchr($dirpath, DIRECTORY_SEPARATOR), "", $dirpath) . DIRECTORY_SEPARATOR;
 	if (file_exists($dirpath))
 		return true;
 
 	$res = mkdir($dirpath, $mode, true);
+	chmod($dirpath,$mode);
 	if (!$res)
 		return $dirpath;
 

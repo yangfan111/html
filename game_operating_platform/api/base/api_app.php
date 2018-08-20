@@ -3,8 +3,7 @@
 /*
  * api应用
  */
-class api_app
-{
+class api_app {
 	//暂定为请求处理时间大于300毫秒就为超时
 	const PROCESS_ELAPSED_OVER_TIME = 300;
 
@@ -44,14 +43,14 @@ class api_app
 	//结果是否要压缩？
 	private static $_result_use_zlib = false;
 
-
 	/*
-	 * 初始化
-	 * @param {object} $framework_config
-	 */
+		 * 初始化
+		 * @param {object} $framework_config
+	*/
 	public static function init($framework_config = null) {
-		if (self::$_process != null)
-		return;
+		if (self::$_process != null) {
+			return;
+		}
 
 		self::$_process = new api_process();
 
@@ -62,9 +61,9 @@ class api_app
 	}
 
 	/*
-	 * 获取db对象
-	 * @return {dbobj}
-	 */
+		 * 获取db对象
+		 * @return {dbobj}
+	*/
 	public static function getDB() {
 		$dbobj = self::$_db;
 		if ($dbobj) {
@@ -91,20 +90,22 @@ class api_app
 	}
 
 	/*
-	 * 获取指定游戏的礼包db对象
-	 * @param {string} $game_id 游戏标识
-	 * @return {dbobj}
-	 */
+		 * 获取指定游戏的礼包db对象
+		 * @param {string} $game_id 游戏标识
+		 * @return {dbobj}
+	*/
 	public static function getGameGiftDB($game_id) {
 		$info = game_list_config::findGameByGameID($game_id);
-		if (!$info)
-		return null;
+		if (!$info) {
+			return null;
+		}
 
 		$giftdbinfo = $info->gift_database;
-		if (isset($giftdbinfo->__gift_dbobj))
-		$dbobj = $giftdbinfo->__gift_dbobj;
-		else
-		$dbobj = null;
+		if (isset($giftdbinfo->__gift_dbobj)) {
+			$dbobj = $giftdbinfo->__gift_dbobj;
+		} else {
+			$dbobj = null;
+		}
 
 		if ($dbobj) {
 			if (!$dbobj->select_db($giftdbinfo->db_name)) {
@@ -124,24 +125,27 @@ class api_app
 
 		$game_gift_db_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/game_gift_db/' . $game_id . '/');
 		$dbobj->setLogObj($game_gift_db_log);
+
 		return $dbobj;
 	}
 
 	/*
-	 * 获取指定游戏指定服的db对象
-	 * @param {string} $game_id 游戏标识
-	 * @param {string} $server_id 服id
-	 * @return {dbobj}
-	 */
+		 * 获取指定游戏指定服的db对象
+		 * @param {string} $game_id 游戏标识
+		 * @param {string} $server_id 服id
+		 * @return {dbobj}
+	*/
 	public static function getGameServerDB($game_id, $server_id) {
-		$server_id = (string)$server_id;
-		if (!game_list_config::loadGameServerListByGameID($game_id))
-		return null;
+		$server_id = (string) $server_id;
+		if (!game_list_config::loadGameServerListByGameID($game_id)) {
+			return null;
+		}
 
 		$info = game_server_list_config::getServerInfo($server_id);
 
-		if (!$info)
-		return null;
+		if (!$info) {
+			return null;
+		}
 
 		if (isset($info['__db_obj__'])) {
 			if (!$info['__db_obj__']->select_db($info['db_name'])) {
@@ -165,16 +169,16 @@ class api_app
 	}
 
 	/*
-	 * 获取请求方的ip
-	 * @return {string}
-	 */
+		 * 获取请求方的ip
+		 * @return {string}
+	*/
 	public static function getRequesterIP() {
 		return $_SERVER['REMOTE_ADDR'];
 	}
 
 	/*
-	 * 获取请求信息
-	 */
+		 * 获取请求信息
+	*/
 	public static function getRequestContentString() {
 		$get_data = $_SERVER['QUERY_STRING'];
 		$post_data = file_get_contents("php://input");
@@ -196,22 +200,22 @@ class api_app
 	}
 
 	/*
-	 * 记录请求
-	 */
+		 * 记录请求
+	*/
 	public static function logRequest($fileobj = null, $usetime = null) {
 		$info_str = self::getRequestContentString();
 
 		if ($fileobj == null) {
 			self::$_request_log->writeToFile($info_str);
 		} else {
-			$fileobj->writeToFile($info_str . '    elapsed time:' . (int)$usetime . ' ms');
+			$fileobj->writeToFile($info_str . '    elapsed time:' . (int) $usetime . ' ms');
 		}
 	}
 
 	/*
-	 * 写日志
-	 * @param {string} str 日志内容
-	 */
+		 * 写日志
+		 * @param {string} str 日志内容
+	*/
 	public static function writeLog($str) {
 		if (!self::$_log) {
 			self::$_log = new lx_FileLog(WEB_ROOT_DIR . '/data/log/api/');
@@ -221,9 +225,9 @@ class api_app
 	}
 
 	/*
-	 * 写错误日志
-	 * @param {string} error_str 错误内容
-	 */
+		 * 写错误日志
+		 * @param {string} error_str 错误内容
+	*/
 	public static function errorLog($error_str) {
 		if (!self::$_error_log) {
 			self::$_error_log = new lx_FileLog(WEB_ROOT_DIR . '/data/error/api/', lx_FileLog::EVERY_DAY_FILE, lx_FileLog::SPLIT_SUBDIR_MONTH);
@@ -233,29 +237,28 @@ class api_app
 	}
 
 	/*
-	 * 清空本次结果
-	 */
+		 * 清空本次结果
+	*/
 	public static function clearResult() {
 		self::$_resultobj = null;
 	}
 
 	/*
-	 * 装入结果
-	 * @param {api_result} result 结果对象
-	 * @param {boolean} use_zlib 启用zlib压缩？默认不启用
-	 */
+		 * 装入结果
+		 * @param {api_result} result 结果对象
+		 * @param {boolean} use_zlib 启用zlib压缩？默认不启用
+	*/
 	public static function pushResult($result, $use_zlib = false) {
 		self::$_resultobj = $result;
 		self::$_result_use_zlib = $use_zlib;
 	}
-
 
 	//---------------------MARK---------------------
 	private static function real_process($req_data) {
 		//解析,验证请求
 		list($pro_obj, $req_obj) = self::$_process->parse_request_obj($req_data);
 		//TODO:判断是否做初始化
-		call_user_func(api_frame_opcode::$init_func,array(api_frame_opcode::$init_arg));
+		call_user_func(api_frame_opcode::$init_func, array(api_frame_opcode::$init_arg));
 		//1.执行开始操作
 		list($continue_do, $new_req) = call_user_func(api_frame_opcode::$gm_before_process_req_func, array($req_obj));
 		if (!$continue_do) {
@@ -271,11 +274,10 @@ class api_app
 		self::process_request_result(self::$_resultobj, self::$_result_use_zlib);
 	}
 
-
 	/*
-	 * 处理请求
-	 * @param {string} $req_data 请求数据
-	 */
+		 * 处理请求
+		 * @param {string} $req_data 请求数据
+	*/
 	public static function process($req_data) {
 		$begin = microtime(true);
 		//MARK REAL PROCESS
@@ -284,7 +286,7 @@ class api_app
 
 		//性能剖析
 		//变为毫秒值
-		$usetime = ($end - $begin)*1000;
+		$usetime = ($end - $begin) * 1000;
 		if ($usetime > self::PROCESS_ELAPSED_OVER_TIME) {
 			if (!self::$_over_elapsed_log) {
 				self::$_over_elapsed_log = new lx_FileLog(WEB_ROOT_DIR . '/data/elapsed/api_request/');
@@ -296,11 +298,12 @@ class api_app
 		}
 	}
 	/*
-	 * 对请求的结果进行处理
-	 */
+		 * 对请求的结果进行处理
+	*/
 	private static function process_request_result($result, $use_zlib) {
-		if ($result == null)
-		return;
+		if ($result == null) {
+			return;
+		}
 
 		//若请求不成功，则记录失败的请求的日志
 		if ($result->error_code != api_error_type::SUCCEED) {
@@ -320,5 +323,3 @@ class api_app
 		echo $str;
 	}
 }
-
-
